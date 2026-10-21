@@ -3,18 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Zyean — Architect & ArchViz</title>
-<meta name="description" content="Abdullah Al Numan Zyean — licensed architect and 3D visualization artist (Rhino, Grasshopper, D5 Render). Founder of Spaceverse Ltd., Dhaka. Relocating to Germany in 2027.">
-<meta property="og:title" content="Abdullah Al Numan Zyean — Architect & ArchViz">
+<title>Zyean — Architecture & ArchViz</title>
+<meta name="description" content="Abdullah Al Numan Zyean — licensed architect (Bangladesh, IAB) and 3D visualization artist working in Rhino, Grasshopper and D5 Render. Founder of Spaceverse Ltd., Dhaka. Relocating to Germany in 2027.">
+<meta property="og:title" content="Abdullah Al Numan Zyean — Architecture & ArchViz">
 <meta property="og:description" content="Licensed architect · Rhino/Grasshopper · D5 Render · Relocating to Germany 2027">
+<meta property="og:image" content="images/asset-visualization/00.webp">
 <meta property="og:type" content="website">
+<link rel="icon" href="images/zyean.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <style>
 :root{
   --paper:#f3f0e8; --paper-2:#ebe6da; --ink:#17181a; --ink-2:#4a4b4f; --line:#c9c2b2;
-  --accent:#c2410c; --grid:rgba(23,24,26,.05);
+  --accent:#c2410c; --grid:rgba(23,24,26,.05); --scrim:rgba(14,15,17,.94);
   --sans:"Archivo",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace; --serif:"Instrument Serif",Georgia,serif;
 }
 @media (prefers-color-scheme: dark){
@@ -27,15 +29,14 @@ body{
   background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
   background-size:24px 24px;
 }
-/* language switching */
+body.locked{overflow:hidden}
 html[data-lang="en"] [lang="de"]:not(html){display:none!important}
 html[data-lang="de"] [lang="en"]:not(html){display:none!important}
-
 a{color:inherit}
+img{display:block;max-width:100%}
 .wrap{max-width:1180px;margin:0 auto;padding:0 16px}
 @media(min-width:720px){.wrap{padding:0 32px}}
 
-/* top bar */
 header.bar{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .bar .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;gap:12px}
 .mark{font-family:var(--mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}
@@ -47,31 +48,34 @@ nav a.l{text-decoration:none;color:var(--ink-2)} nav a.l:hover{color:var(--ink)}
 .lang button{background:none;border:0;color:var(--ink);padding:5px 9px;cursor:pointer;font:inherit}
 .lang button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
 
-/* hero */
-.hero{padding:64px 0 40px;border-bottom:1px solid var(--line)}
+.hero{padding:56px 0 40px;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;gap:32px;align-items:end}
+@media(min-width:900px){.hero-grid{grid-template-columns:1fr 300px}}
 .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
-h1{font-size:clamp(44px,9vw,120px);line-height:.92;font-weight:800;letter-spacing:-.035em;margin:18px 0 22px}
+h1{font-size:clamp(44px,8.4vw,112px);line-height:.92;font-weight:800;letter-spacing:-.035em;margin:18px 0 22px}
 h1 em{font-family:var(--serif);font-weight:400;font-style:italic;letter-spacing:-.01em;color:var(--accent)}
 .lede{font-size:clamp(17px,2vw,21px);max-width:720px;color:var(--ink-2)}
+.portrait{border:1px solid var(--ink);background:var(--paper-2);position:relative;max-width:300px}
+.portrait img{width:100%;aspect-ratio:1;object-fit:cover;filter:grayscale(.15)}
+.portrait figcaption{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:8px 10px;border-top:1px solid var(--ink);display:flex;justify-content:space-between}
 .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
-.btn{display:inline-block;padding:11px 18px;border:1px solid var(--ink);text-decoration:none;font-size:14px;font-weight:500}
+.btn{display:inline-block;padding:11px 18px;border:1px solid var(--ink);text-decoration:none;font-size:14px;font-weight:500;background:none;color:inherit;cursor:pointer;font-family:inherit}
 .btn.solid{background:var(--ink);color:var(--paper)}
 .btn:hover{border-color:var(--accent)}
 
-/* title block (drawing sheet) */
 .tb{display:grid;grid-template-columns:repeat(2,1fr);border:1px solid var(--ink);margin-top:44px;background:var(--paper)}
-@media(min-width:820px){.tb{grid-template-columns:repeat(5,1fr)}}
+@media(min-width:820px){.tb{grid-template-columns:repeat(3,1fr)}}
 .tb div{padding:12px 14px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
 .tb small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);margin-bottom:4px}
 .tb span{font-size:14px;font-weight:500}
 
 section{padding:72px 0;border-bottom:1px solid var(--line)}
-.sh{display:flex;align-items:baseline;gap:14px;margin-bottom:32px}
+.sh{display:flex;align-items:baseline;gap:14px;margin-bottom:12px}
 .sh .no{font-family:var(--mono);font-size:12px;color:var(--accent)}
 h2{font-size:clamp(28px,4vw,44px);font-weight:700;letter-spacing:-.02em}
+.sub{color:var(--ink-2);max-width:720px;margin-bottom:28px;font-size:15.5px}
 
-/* about */
-.about{display:grid;gap:32px}
+.about{display:grid;gap:32px;margin-top:20px}
 @media(min-width:900px){.about{grid-template-columns:1.3fr 1fr}}
 .about p{font-size:17px;margin-bottom:14px}
 .facts{border-top:1px solid var(--ink)}
@@ -79,42 +83,46 @@ h2{font-size:clamp(28px,4vw,44px);font-weight:700;letter-spacing:-.02em}
 .facts li b{font-family:var(--mono);font-weight:400;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);padding-top:2px;flex-shrink:0}
 .facts li span{text-align:right}
 
-/* projects */
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
 .filters button{font-family:var(--mono);font-size:12px;padding:6px 11px;border:1px solid var(--line);background:none;color:var(--ink-2);cursor:pointer}
 .filters button[aria-pressed="true"]{border-color:var(--ink);color:var(--ink);background:var(--paper-2)}
 .grid{display:grid;gap:20px;grid-template-columns:1fr}
 @media(min-width:640px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}}
-.card{border:1px solid var(--line);background:var(--paper);display:flex;flex-direction:column}
+.card{border:1px solid var(--line);background:var(--paper);display:flex;flex-direction:column;text-align:left;cursor:pointer;color:inherit;font:inherit;padding:0;transition:border-color .2s}
+.card:hover,.card:focus-visible{border-color:var(--ink);outline:none}
 .card.hide{display:none}
-.card .img{aspect-ratio:4/3;position:relative;overflow:hidden;background:var(--paper-2);border-bottom:1px solid var(--line)}
-.card .img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}
-.card:hover .img img{transform:scale(1.03)}
-.ph{position:absolute;inset:0;display:flex;align-items:flex-end;padding:14px;
-  background:repeating-linear-gradient(45deg,transparent 0 9px,var(--grid) 9px 10px)}
-.ph strong{font-family:var(--serif);font-size:58px;font-weight:400;line-height:1;color:var(--line)}
+.card .img{aspect-ratio:4/3;overflow:hidden;background:var(--paper-2);border-bottom:1px solid var(--line);position:relative}
+.card .img img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.card:hover .img img{transform:scale(1.035)}
+.card .count{position:absolute;right:10px;bottom:10px;font-family:var(--mono);font-size:11px;background:var(--ink);color:var(--paper);padding:3px 7px}
 .card .body{padding:16px 16px 18px;flex:1;display:flex;flex-direction:column;gap:8px}
 .card .meta{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);display:flex;justify-content:space-between;gap:8px}
 .card h3{font-size:20px;font-weight:700;letter-spacing:-.01em;line-height:1.2}
 .card p{font-size:14.5px;color:var(--ink-2)}
-.badge{align-self:flex-start;font-family:var(--mono);font-size:11px;padding:3px 7px;background:var(--accent);color:#fff}
+.card .foot{margin-top:auto;padding-top:6px;font-family:var(--mono);font-size:11px;color:var(--ink-2)}
 
-/* skills */
-.cols{display:grid;gap:28px}
+.acad{margin-top:44px;border-top:1px solid var(--ink)}
+.acad h3{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);padding:12px 0}
+.acad li{list-style:none;display:grid;grid-template-columns:1fr auto;gap:6px 20px;padding:14px 0;border-top:1px solid var(--line)}
+.acad li b{font-size:17px}
+.acad li i{font-style:normal;font-family:var(--mono);font-size:12px;color:var(--ink-2);text-align:right}
+.acad li span{grid-column:1/-1;color:var(--ink-2);font-size:14.5px}
+.badge{display:inline-block;font-family:var(--mono);font-size:11px;padding:2px 7px;background:var(--accent);color:#fff;margin-left:8px;vertical-align:middle}
+
+.cols{display:grid;gap:28px;margin-top:20px}
 @media(min-width:800px){.cols{grid-template-columns:repeat(3,1fr)}}
 .col h3{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);padding-bottom:10px;border-bottom:1px solid var(--ink);margin-bottom:6px}
 .col li{list-style:none;padding:9px 0;border-bottom:1px solid var(--line);font-size:15.5px;display:flex;justify-content:space-between;gap:12px}
 .col li i{font-style:normal;font-family:var(--mono);font-size:12px;color:var(--ink-2);text-align:right}
 
-/* timeline */
+.tl{margin-top:20px}
 .tl li{list-style:none;display:grid;grid-template-columns:110px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--line)}
 @media(max-width:560px){.tl li{grid-template-columns:1fr;gap:4px}}
 .tl .yr{font-family:var(--mono);font-size:13px;color:var(--accent)}
 .tl h4{font-size:18px;font-weight:700}
 .tl p{color:var(--ink-2);font-size:15px}
 
-/* contact */
 .contact{background:var(--ink);color:var(--paper);border:0}
 .contact .eyebrow{color:color-mix(in srgb,var(--paper) 65%,transparent)}
 .contact h2{font-size:clamp(34px,6vw,72px);line-height:1;margin:16px 0 28px}
@@ -123,6 +131,30 @@ h2{font-size:clamp(28px,4vw,44px);font-weight:700;letter-spacing:-.02em}
 .contact .btn.solid{background:var(--paper);color:var(--ink)}
 footer{padding:22px 0;font-family:var(--mono);font-size:12px;color:var(--ink-2)}
 footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+/* project viewer */
+dialog{border:0;padding:0;max-width:none;max-height:none;width:100%;height:100%;background:var(--scrim);color:#ece8de}
+dialog::backdrop{background:var(--scrim)}
+.pv{display:grid;height:100%;grid-template-rows:auto 1fr auto auto}
+@media(min-width:1000px){.pv{grid-template-columns:1fr 380px;grid-template-rows:auto 1fr auto}}
+.pv-top{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;padding:10px 16px;font-family:var(--mono);font-size:12px;border-bottom:1px solid #2c2d31}
+.pv-top button{background:none;border:1px solid #55565c;color:inherit;font:inherit;padding:6px 12px;cursor:pointer}
+.pv-stage{position:relative;display:flex;align-items:center;justify-content:center;min-height:0;padding:10px}
+.pv-stage img{max-width:100%;max-height:100%;object-fit:contain}
+.pv-nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,.45);border:1px solid #55565c;color:#fff;width:44px;height:44px;font-size:20px;cursor:pointer}
+.pv-nav.prev{left:12px} .pv-nav.next{right:12px}
+.pv-strip{display:flex;gap:6px;overflow-x:auto;padding:8px 16px;border-top:1px solid #2c2d31}
+@media(min-width:1000px){.pv-strip{grid-column:1}}
+.pv-strip button{flex:0 0 auto;border:2px solid transparent;padding:0;background:none;cursor:pointer;opacity:.6}
+.pv-strip button[aria-current="true"]{border-color:#f97316;opacity:1}
+.pv-strip img{width:88px;height:62px;object-fit:cover}
+.pv-info{padding:18px 16px 24px;overflow-y:auto;border-top:1px solid #2c2d31;max-height:42vh}
+@media(min-width:1000px){.pv-info{grid-column:2;grid-row:2/4;border-top:0;border-left:1px solid #2c2d31;max-height:none;padding:28px 24px}}
+.pv-info .k{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#a6a39b}
+.pv-info h3{font-size:28px;line-height:1.1;margin:6px 0 14px;letter-spacing:-.01em}
+.pv-info p{font-size:15px;color:#cfcbc1;margin-bottom:18px}
+.pv-info dl{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;border-top:1px solid #2c2d31;padding-top:14px;font-size:14px}
+.pv-info dt{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:#a6a39b;padding-top:2px}
 </style>
 </head>
 <body>
@@ -146,22 +178,31 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 <main id="top">
 <div class="hero">
   <div class="wrap">
-    <p class="eyebrow"><span lang="en">Architect · 3D Visualization · Dhaka → Germany 2027</span><span lang="de">Architekt · 3D-Visualisierung · Dhaka → Deutschland 2027</span></p>
-    <h1>Abdullah Al Numan <em>Zyean</em></h1>
-    <p class="lede">
-      <span lang="en">Licensed architect with 7+ years across residential, mixed-use and institutional work, and founder of Spaceverse Ltd. I model in Rhino and Grasshopper and render in D5. I'm looking for a role in architectural visualization or architecture in Germany, on-site or remote.</span>
-      <span lang="de">Zugelassener Architekt mit über 7 Jahren Erfahrung in Wohn-, Mischnutzungs- und öffentlichen Bauten sowie Gründer von Spaceverse Ltd. Ich modelliere in Rhino und Grasshopper und rendere in D5. Ich suche eine Stelle in der Architekturvisualisierung oder Architektur in Deutschland – vor Ort oder remote.</span>
-    </p>
-    <div class="cta">
-      <a class="btn solid" href="#work"><span lang="en">View projects</span><span lang="de">Projekte ansehen</span></a>
-      <a class="btn" href="#contact"><span lang="en">Get in touch</span><span lang="de">Kontakt aufnehmen</span></a>
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow"><span lang="en">Architect · 3D Visualization · Dhaka → Germany 2027</span><span lang="de">Architektur · 3D-Visualisierung · Dhaka → Deutschland 2027</span></p>
+        <h1>Abdullah Al Numan <em>Zyean</em></h1>
+        <p class="lede">
+          <span lang="en">Licensed architect with 7+ years across residential, mixed-use and institutional work, and founder of Spaceverse Ltd. I model in Rhino and Grasshopper and render in D5. I'm looking for a role in architectural visualization or architecture in Germany, on-site or remote.</span>
+          <span lang="de">Architekturabschluss (B.Arch) mit Zulassung in Bangladesch (IAB) und über 7 Jahren Erfahrung in Wohn-, Mischnutzungs- und öffentlichen Bauten; Gründer von Spaceverse Ltd. Ich modelliere in Rhino und Grasshopper und rendere in D5. Ich suche eine Stelle in der Architekturvisualisierung oder Architektur in Deutschland – vor Ort oder remote.</span>
+        </p>
+        <div class="cta">
+          <a class="btn solid" href="#work"><span lang="en">View projects</span><span lang="de">Projekte ansehen</span></a>
+          <a class="btn" href="#contact"><span lang="en">Get in touch</span><span lang="de">Kontakt aufnehmen</span></a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="images/zyean.webp" width="900" height="900" alt="Portrait of Abdullah Al Numan Zyean">
+        <figcaption><span>Ar. Zyean Abdullah</span><span lang="en">Founder</span><span lang="de">Gründer</span></figcaption>
+      </figure>
     </div>
 
     <div class="tb" aria-label="Summary">
-      <div><small><span lang="en">Role</span><span lang="de">Rolle</span></small><span lang="en">Architect / ArchViz</span><span lang="de">Architekt / ArchViz</span></div>
+      <div><small><span lang="en">Role</span><span lang="de">Bereich</span></small><span lang="en">Architect / ArchViz</span><span lang="de">Architektur / ArchViz</span></div>
       <div><small><span lang="en">Experience</span><span lang="de">Erfahrung</span></small><span lang="en">7+ years</span><span lang="de">7+ Jahre</span></div>
       <div><small><span lang="en">Tools</span><span lang="de">Software</span></small><span>Rhino · GH · D5 · CAD</span></div>
-      <div><small><span lang="en">Languages</span><span lang="de">Sprachen</span></small><span lang="en">EN C1 · DE A2 · BN</span><span lang="de">EN C1 · DE A2 · BN</span></div>
+      <div><small><span lang="en">Languages</span><span lang="de">Sprachen</span></small><span>EN C1 · DE A2 · BN</span></div>
+      <div><small><span lang="en">Practice</span><span lang="de">Büro</span></small><span>Spaceverse Ltd. · 2022–</span></div>
       <div><small><span lang="en">Available</span><span lang="de">Verfügbar</span></small><span lang="en">Remote now · DE 2027</span><span lang="de">Remote sofort · DE 2027</span></div>
     </div>
   </div>
@@ -173,17 +214,17 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
     <div class="about">
       <div>
         <p lang="en">I'm a licensed architect based in Dhaka, Bangladesh. In 2022 I founded Spaceverse Ltd., a practice with in-house building design, interior and landscape teams. I've led work from concept through RAJUK approval drawings to construction detailing.</p>
-        <p lang="de">Ich bin zugelassener Architekt mit Sitz in Dhaka, Bangladesch. 2022 habe ich Spaceverse Ltd. gegründet, ein Büro mit eigenen Teams für Gebäudeplanung, Innenarchitektur und Landschaftsarchitektur. Ich habe Projekte vom Entwurf über die Genehmigungsplanung (RAJUK) bis zur Ausführungsplanung geleitet.</p>
+        <p lang="de">Ich lebe in Dhaka, Bangladesch, und habe 2022 Spaceverse Ltd. gegründet – ein Büro mit eigenen Teams für Gebäudeplanung, Innenarchitektur sowie Freiraum- und Lichtplanung. Ich habe Projekte vom Entwurf über die Genehmigungsplanung (RAJUK) bis zur Ausführungsplanung geleitet.</p>
         <p lang="en">Visualization is the part of the work I care about most. I build precise Rhino models, use Grasshopper for parametric studies, and produce final images in D5 Render, with AI-assisted post-production for client presentations. I also teach part-time at Khulna University's Architecture Discipline.</p>
         <p lang="de">Am meisten begeistert mich die Visualisierung. Ich erstelle präzise Rhino-Modelle, nutze Grasshopper für parametrische Studien und produziere finale Bilder in D5 Render, mit KI-gestützter Nachbearbeitung für Kundenpräsentationen. Außerdem lehre ich in Teilzeit an der Architekturfakultät der Khulna University.</p>
       </div>
       <ul class="facts">
         <li><b><span lang="en">Degree</span><span lang="de">Abschluss</span></b><span>B.Arch, Khulna University</span></li>
-        <li><b><span lang="en">Registration</span><span lang="de">Zulassung</span></b><span lang="en">IAB accredited · RAJUK enlisted</span><span lang="de">IAB-akkreditiert · RAJUK-gelistet</span></li>
+        <li><b><span lang="en">Registration</span><span lang="de">Zulassung</span></b><span lang="en">IAB accredited · RAJUK enlisted</span><span lang="de">IAB · RAJUK (Bangladesch)</span></li>
         <li><b><span lang="en">Practice</span><span lang="de">Büro</span></b><span>Spaceverse Ltd. (2022–)</span></li>
         <li><b><span lang="en">Teaching</span><span lang="de">Lehre</span></b><span lang="en">Part-time, Khulna University</span><span lang="de">Teilzeit, Khulna University</span></li>
         <li><b><span lang="en">Certified</span><span lang="de">Zertifiziert</span></b><span>Rhino Professional · D5 User</span></li>
-        <li><b><span lang="en">Shortlists</span><span lang="de">Shortlists</span></b><span lang="en">Bamiyan Cultural Centre (UNESCO) · Berger Award</span><span lang="de">Kulturzentrum Bamiyan (UNESCO) · Berger Award</span></li>
+        <li><b>Shortlists</b><span lang="en">Bamiyan Cultural Centre (UNESCO) · Berger Award</span><span lang="de">Kulturzentrum Bamiyan (UNESCO) · Berger Award</span></li>
         <li><b>English</b><span lang="en">IELTS Academic 7.0 (C1)</span><span lang="de">IELTS Academic 7,0 (C1)</span></li>
         <li><b>Deutsch</b><span lang="en">A2 course level, working towards B2</span><span lang="de">A2 (Kursniveau), Ziel B2</span></li>
       </ul>
@@ -194,13 +235,27 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 <section id="work">
   <div class="wrap">
     <div class="sh"><span class="no">02</span><h2><span lang="en">Selected work</span><span lang="de">Ausgewählte Projekte</span></h2></div>
-    <div class="filters" role="group" aria-label="Filter">
-      <button type="button" data-f="all" aria-pressed="true"><span lang="en">All</span><span lang="de">Alle</span></button>
-      <button type="button" data-f="viz" aria-pressed="false"><span lang="en">Visualization</span><span lang="de">Visualisierung</span></button>
-      <button type="button" data-f="comp" aria-pressed="false"><span lang="en">Competition & academic</span><span lang="de">Wettbewerb & Studium</span></button>
-      <button type="button" data-f="built" aria-pressed="false"><span lang="en">Practice</span><span lang="de">Praxis</span></button>
-    </div>
+    <p class="sub">
+      <span lang="en">Projects by Spaceverse Ltd., the practice I founded and lead: visualization, housing, public and religious buildings, healthcare and interiors. Click a project to open its gallery.</span>
+      <span lang="de">Projekte von Spaceverse Ltd., dem Büro, das ich gegründet habe und leite: Visualisierung, Wohnungsbau, öffentliche und sakrale Bauten, Gesundheitsbauten und Innenarchitektur. Klicken Sie auf ein Projekt, um die Galerie zu öffnen.</span>
+    </p>
+    <div class="filters" role="group" aria-label="Filter" id="filters"></div>
     <div class="grid" id="grid"></div>
+
+    <div class="acad">
+      <h3><span lang="en">Academic & competitions</span><span lang="de">Studium & Wettbewerbe</span></h3>
+      <ul>
+        <li><b>High Tech Park, Mymensingh</b><i><span lang="en">Thesis · 2026 degree show</span><span lang="de">Abschlussarbeit · 2026</span></i>
+          <span lang="en">Rethinking the design scheme of a high-tech park; rebuilt as a full Rhino model for the 2026 degree show.</span>
+          <span lang="de">Neuinterpretation des Entwurfskonzepts eines Technologieparks; für die Abschlussausstellung 2026 als vollständiges Rhino-Modell neu aufgebaut.</span></li>
+        <li><b>Pause in a Motion</b><i><span lang="en">Metro station</span><span lang="de">U-Bahn-Station</span></i>
+          <span lang="en">A metro station designed as a moment of rest inside movement. CAD plans, Rhino model and physical model.</span>
+          <span lang="de">Eine U-Bahn-Station als Moment der Ruhe inmitten der Bewegung. CAD-Pläne, Rhino-Modell und physisches Modell.</span></li>
+        <li><b><span lang="en">Bamiyan Cultural Centre</span><span lang="de">Kulturzentrum Bamiyan</span><span class="badge">Shortlist</span></b><i><span lang="en">Competition · UNESCO</span><span lang="de">Wettbewerb · UNESCO</span></i>
+          <span lang="en">International competition entry, shortlisted.</span>
+          <span lang="de">Beitrag zum internationalen Wettbewerb, in die engere Auswahl gekommen.</span></li>
+      </ul>
+    </div>
   </div>
 </section>
 
@@ -221,9 +276,9 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
         <h3><span lang="en">Visualization</span><span lang="de">Visualisierung</span></h3>
         <ul>
           <li>D5 Render <i><span lang="en">Certified</span><span lang="de">Zertifiziert</span></i></li>
-          <li><span lang="en">Exterior & interior stills</span><span lang="de">Außen- & Innenbilder</span> <i>4K</i></li>
+          <li><span lang="en">Exterior & interior stills</span><span lang="de">Außen- & Innenbilder</span> <i><span lang="en">Day / evening</span><span lang="de">Tag / Abend</span></i></li>
+          <li><span lang="en">Marketing render sets</span><span lang="de">Vermarktungs-Bildserien</span> <i>Asset · Sare</i></li>
           <li><span lang="en">AI-assisted post-production</span><span lang="de">KI-gestützte Nachbearbeitung</span> <i>Google Flow</i></li>
-          <li><span lang="en">Physical-model photo matching</span><span lang="de">Abgleich mit Modellfotos</span> <i>Rhino</i></li>
         </ul>
       </div>
       <div class="col">
@@ -244,9 +299,9 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
     <div class="sh"><span class="no">04</span><h2><span lang="en">Experience & education</span><span lang="de">Werdegang</span></h2></div>
     <ul class="tl">
       <li><span class="yr">2022 –</span><div>
-        <h4><span lang="en">Founder & Principal Architect, Spaceverse Ltd.</span><span lang="de">Gründer & leitender Architekt, Spaceverse Ltd.</span></h4>
-        <p lang="en">Dhaka. Full building design, interior and landscape. Residential, mixed-use and institutional projects, from concept and visualization to RAJUK approval sets.</p>
-        <p lang="de">Dhaka. Gebäudeplanung, Innen- und Landschaftsarchitektur. Wohn-, Mischnutzungs- und öffentliche Projekte – vom Entwurf und der Visualisierung bis zur Genehmigungsplanung (RAJUK).</p>
+        <h4><span lang="en">Founder & Principal Architect, Spaceverse Ltd.</span><span lang="de">Gründer & Büroinhaber, Spaceverse Ltd.</span></h4>
+        <p lang="en">Mirpur, Dhaka. Building design, interior and landscape. Clients include LGED, Mymensingh City Corporation, Asset Developments and private developers; work from concept and visualization to RAJUK approval sets.</p>
+        <p lang="de">Mirpur, Dhaka. Gebäudeplanung, Innenarchitektur sowie Freiraum- und Lichtplanung. Auftraggeber u. a. LGED, Mymensingh City Corporation, Asset Developments und private Bauträger – vom Entwurf und der Visualisierung bis zur Genehmigungsplanung (RAJUK).</p>
       </div></li>
       <li><span class="yr"><span lang="en">Ongoing</span><span lang="de">Laufend</span></span><div>
         <h4><span lang="en">Part-time teaching staff, Architecture Discipline</span><span lang="de">Lehrbeauftragter (Teilzeit), Architekturfakultät</span></h4>
@@ -254,8 +309,8 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
       </div></li>
       <li><span class="yr"><span lang="en">Earlier</span><span lang="de">Zuvor</span></span><div>
         <h4><span lang="en">Project management & construction detailing</span><span lang="de">Projektleitung & Ausführungsplanung</span></h4>
-        <p lang="en">Ma O Shishu Hospital, in joint venture.</p>
-        <p lang="de">Ma O Shishu Hospital, in einer Arbeitsgemeinschaft.</p>
+        <p lang="en">Ma O Shishu Hospital, Uttara, in joint venture.</p>
+        <p lang="de">Ma O Shishu Hospital, Uttara, in einer Arbeitsgemeinschaft.</p>
       </div></li>
       <li><span class="yr">B.Arch</span><div>
         <h4><span lang="en">Bachelor of Architecture</span><span lang="de">Bachelor of Architecture (B.Arch)</span></h4>
@@ -267,10 +322,11 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 
 <section id="contact" class="contact">
   <div class="wrap">
-    <p class="eyebrow"><span lang="en">Open to ArchViz & architecture roles in Germany</span><span lang="de">Offen für ArchViz- & Architekturstellen in Deutschland</span></p>
+    <p class="eyebrow"><span lang="en">Open to ArchViz & architecture roles in Germany</span><span lang="de">Offen für Stellen in Visualisierung & Architektur in Deutschland</span></p>
     <h2><span lang="en">Let's build something <em>worth seeing.</em></span><span lang="de">Lassen Sie uns etwas <em>Sehenswertes</em> bauen.</span></h2>
     <div class="cta">
       <a class="btn solid" href="mailto:abnzyean@gmail.com">abnzyean@gmail.com</a>
+      <a class="btn" href="https://www.linkedin.com/in/abdullah-numan-architecture/" target="_blank" rel="noopener">LinkedIn</a>
       <a class="btn" href="https://spaceverseltd.com" target="_blank" rel="noopener">spaceverseltd.com</a>
       <a class="btn" href="cv.pdf" target="_blank" rel="noopener"><span lang="en">Download CV (PDF)</span><span lang="de">Lebenslauf (PDF)</span></a>
     </div>
@@ -278,74 +334,109 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 </section>
 </main>
 
-<footer><div class="wrap"><span>© 2026 Abdullah Al Numan Zyean</span><span>Dhaka · BD</span></div></footer>
+<footer><div class="wrap"><span>© 2026 Abdullah Al Numan Zyean</span><span lang="en">Images: Spaceverse Ltd.</span><span lang="de">Bilder: Spaceverse Ltd.</span></div></footer>
 
+<dialog id="pv" aria-label="Project gallery">
+  <div class="pv">
+    <div class="pv-top"><span id="pv-count"></span><button type="button" id="pv-close"><span lang="en">Close ✕</span><span lang="de">Schließen ✕</span></button></div>
+    <div class="pv-stage">
+      <img id="pv-img" alt="">
+      <button type="button" class="pv-nav prev" id="pv-prev" aria-label="Previous image">‹</button>
+      <button type="button" class="pv-nav next" id="pv-next" aria-label="Next image">›</button>
+    </div>
+    <div class="pv-strip" id="pv-strip"></div>
+    <div class="pv-info" id="pv-info"></div>
+  </div>
+</dialog>
+
+<script src="data.js"></script>
 <script>
-/* ---- Edit projects here. Put images in /images/<id>.webp (or .jpg — change ext below). ---- */
-const PROJECTS = [
-  { id:"high-tech-park", cat:"comp", year:"2026",
-    en:{ t:"High Tech Park, Mymensingh", type:"Thesis · Degree show", d:"Rethinking the design scheme of a high-tech park. Rebuilt as a full Rhino model for the 2026 degree show." },
-    de:{ t:"High Tech Park, Mymensingh", type:"Abschlussarbeit", d:"Neuinterpretation des Entwurfskonzepts eines Technologieparks. Für die Abschlussausstellung 2026 als vollständiges Rhino-Modell neu aufgebaut." } },
-  { id:"pause-in-a-motion", cat:"comp", year:"",
-    en:{ t:"Pause in a Motion", type:"Metro station", d:"A metro station designed as a moment of rest inside movement. CAD plans, Rhino model and physical model." },
-    de:{ t:"Pause in a Motion", type:"U-Bahn-Station", d:"Eine U-Bahn-Station als Moment der Ruhe inmitten der Bewegung. CAD-Pläne, Rhino-Modell und physisches Modell." } },
-  { id:"bamiyan", cat:"comp", year:"", badge:{en:"Shortlisted", de:"Shortlist"},
-    en:{ t:"Bamiyan Cultural Centre", type:"Competition · UNESCO", d:"International competition entry, shortlisted." },
-    de:{ t:"Kulturzentrum Bamiyan", type:"Wettbewerb · UNESCO", d:"Beitrag zum internationalen Wettbewerb, in die engere Auswahl gekommen." } },
-  { id:"ma-matin-library", cat:"built", year:"",
-    en:{ t:"Ma Matin Library", type:"Library", d:"Library project." },
-    de:{ t:"Ma Matin Bibliothek", type:"Bibliothek", d:"Bibliotheksprojekt." } },
-  { id:"ma-o-shishu-hospital", cat:"built", year:"",
-    en:{ t:"Ma O Shishu Hospital", type:"Healthcare · JV", d:"Project management and construction detailing in joint venture." },
-    de:{ t:"Ma O Shishu Krankenhaus", type:"Gesundheitsbau · ARGE", d:"Projektleitung und Ausführungsplanung in einer Arbeitsgemeinschaft." } },
-  { id:"silicon-europa", cat:"built", year:"",
-    en:{ t:"Silicon Europa", type:"Spaceverse Ltd.", d:"Design and visualization by Spaceverse Ltd." },
-    de:{ t:"Silicon Europa", type:"Spaceverse Ltd.", d:"Entwurf und Visualisierung von Spaceverse Ltd." } },
-  { id:"rasel-residence", cat:"built", year:"",
-    en:{ t:"Rasel Residence", type:"Residential · Spaceverse", d:"Private residence by Spaceverse Ltd." },
-    de:{ t:"Rasel Residence", type:"Wohnhaus · Spaceverse", d:"Privates Wohnhaus von Spaceverse Ltd." } },
-  { id:"residence-triplex", cat:"built", year:"",
-    en:{ t:"Residence Triplex Expansion", type:"Residential · Spaceverse", d:"Expansion of a three-level residence." },
-    de:{ t:"Erweiterung Triplex-Wohnhaus", type:"Wohnhaus · Spaceverse", d:"Erweiterung eines dreigeschossigen Wohnhauses." } },
-  { id:"archviz-studies", cat:"viz", year:"2026",
-    en:{ t:"Visualization studies", type:"ArchViz", d:"Exterior and interior stills: Rhino modelling, D5 Render, AI-assisted post-production for client presentations." },
-    de:{ t:"Visualisierungsstudien", type:"ArchViz", d:"Außen- und Innenbilder: Rhino-Modellierung, D5 Render, KI-gestützte Nachbearbeitung für Kundenpräsentationen." } },
+const P = window.PRACTICE_PROJECTS || [];
+const FILTERS = [
+  { key:"all", en:"All", de:"Alle", cats:null },
+  { key:"viz", en:"Visualization", de:"Visualisierung", cats:["Visualization"] },
+  { key:"res", en:"Residential & mixed-use", de:"Wohn- & Geschäftsbauten", cats:["Residential","Commercial"] },
+  { key:"pub", en:"Public & healthcare", de:"Öffentliche & Gesundheitsbauten", cats:["Public","Healthcare"] },
+  { key:"rel", en:"Religious", de:"Sakralbauten", cats:["Religious"] },
+  { key:"int", en:"Interiors", de:"Innenarchitektur", cats:["Interior"] },
 ];
-const IMG_EXT = "webp";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const L = () => document.documentElement.dataset.lang;
 
-const grid = document.getElementById("grid");
-function initials(t){return t.split(/\s+/).filter(w=>/^[A-Za-zÄÖÜ]/.test(w)).slice(0,2).map(w=>w[0]).join("")}
-function render(){
-  grid.innerHTML = PROJECTS.map(p => `
-    <article class="card" data-cat="${p.cat}">
-      <div class="img">
-        <div class="ph"><strong>${initials(p.en.t)}</strong></div>
-        <img src="images/${p.id}.${IMG_EXT}" alt="${p.en.t}" loading="lazy" onerror="this.remove()">
-      </div>
-      <div class="body">
-        ${["en","de"].map(l => `
-          <div lang="${l}" style="display:contents">
-            <div class="meta"><span>${p[l].type}</span><span>${p.year}</span></div>
-            <h3>${p[l].t}</h3>
-            ${p.badge ? `<span class="badge">${p.badge[l]}</span>` : ""}
-            <p>${p[l].d}</p>
-          </div>`).join("")}
-      </div>
-    </article>`).join("");
-}
-render();
+document.getElementById("filters").innerHTML = FILTERS.map((f,i) =>
+  `<button type="button" data-f="${f.key}" aria-pressed="${i===0}"><span lang="en">${f.en}</span><span lang="de">${f.de}</span></button>`).join("");
 
-/* filters */
-document.querySelectorAll(".filters button").forEach(b => b.addEventListener("click", () => {
-  document.querySelectorAll(".filters button").forEach(x => x.setAttribute("aria-pressed", x===b));
-  const f = b.dataset.f;
-  document.querySelectorAll(".card").forEach(c => c.classList.toggle("hide", f!=="all" && c.dataset.cat!==f));
+document.getElementById("grid").innerHTML = P.map((p,i) => `
+  <button type="button" class="card" data-i="${i}" data-cat="${p.cat}">
+    <div class="img">
+      <img src="images/${p.id}/thumb.webp" width="720" height="540" alt="${esc(p.en.t)}" loading="${i<3?"eager":"lazy"}">
+      <span class="count">${p.imgs.length} ▣</span>
+    </div>
+    <div class="body">
+      ${["en","de"].map(l => { const t = p[l] || p.en; return `
+        <div lang="${l}" style="display:contents">
+          <div class="meta"><span>${esc(l==="de"?p.catDe:p.cat)}</span><span>${esc(t.loc)}</span></div>
+          <h3>${esc(t.t)}</h3>
+          <p>${esc(t.d)}</p>
+          <div class="foot">${esc(t.area && t.area!=="N/A" ? t.area+" · " : "")}${esc(t.year)}</div>
+        </div>`; }).join("")}
+    </div>
+  </button>`).join("");
+
+document.querySelectorAll("#filters button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll("#filters button").forEach(x => x.setAttribute("aria-pressed", x===b));
+  const f = FILTERS.find(x => x.key===b.dataset.f);
+  document.querySelectorAll(".card").forEach(c => c.classList.toggle("hide", !!f.cats && !f.cats.includes(c.dataset.cat)));
 }));
+
+/* gallery viewer */
+const dlg = document.getElementById("pv");
+let cur = null, idx = 0;
+function show(n){
+  const imgs = P[cur].imgs; idx = (n + imgs.length) % imgs.length;
+  const im = document.getElementById("pv-img");
+  im.src = imgs[idx].src; im.alt = `${P[cur].en.t} — ${idx+1}`;
+  document.getElementById("pv-count").textContent = `${idx+1} / ${imgs.length}`;
+  document.querySelectorAll("#pv-strip button").forEach((b,i) => { b.setAttribute("aria-current", i===idx); if(i===idx) b.scrollIntoView({block:"nearest",inline:"center"}); });
+  const nx = new Image(); nx.src = imgs[(idx+1)%imgs.length].src;
+}
+function info(){
+  const p = P[cur];
+  document.getElementById("pv-info").innerHTML = ["en","de"].map(l => { const t = p[l] || p.en; const K = l==="de"
+      ? {c:"Auftraggeber",a:"Fläche",s:"Leistung",y:"Status",l:"Ort"} : {c:"Client",a:"Area",s:"Scope",y:"Status",l:"Location"};
+    return `<div lang="${l}">
+      <div class="k">${esc(l==="de"?p.catDe:p.cat)} · Spaceverse Ltd.</div>
+      <h3>${esc(t.t)}</h3>
+      <p>${esc(t.b || t.d)}</p>
+      <dl>
+        <dt>${K.l}</dt><dd>${esc(t.loc)}</dd>
+        ${t.client?`<dt>${K.c}</dt><dd>${esc(t.client)}</dd>`:""}
+        ${t.area && t.area!=="N/A"?`<dt>${K.a}</dt><dd>${esc(t.area)}</dd>`:""}
+        ${t.scope?`<dt>${K.s}</dt><dd>${esc(t.scope)}</dd>`:""}
+        ${t.year?`<dt>${K.y}</dt><dd>${esc(t.year)}</dd>`:""}
+      </dl></div>`; }).join("");
+}
+function open(i){
+  cur = i;
+  document.getElementById("pv-strip").innerHTML = P[i].imgs.map((im,k) =>
+    `<button type="button" data-k="${k}" aria-label="Image ${k+1}"><img src="${im.src}" alt="" loading="lazy"></button>`).join("");
+  document.querySelectorAll("#pv-strip button").forEach(b => b.addEventListener("click", () => show(+b.dataset.k)));
+  info(); dlg.showModal(); document.body.classList.add("locked"); show(0);
+}
+function close(){ dlg.close(); }
+dlg.addEventListener("close", () => document.body.classList.remove("locked"));
+document.getElementById("grid").addEventListener("click", e => { const c = e.target.closest(".card"); if (c) open(+c.dataset.i); });
+document.getElementById("pv-close").addEventListener("click", close);
+document.getElementById("pv-prev").addEventListener("click", () => show(idx-1));
+document.getElementById("pv-next").addEventListener("click", () => show(idx+1));
+dlg.addEventListener("keydown", e => { if (e.key==="ArrowRight") show(idx+1); if (e.key==="ArrowLeft") show(idx-1); });
+let sx = null;
+dlg.addEventListener("touchstart", e => { sx = e.touches[0].clientX; }, {passive:true});
+dlg.addEventListener("touchend", e => { if (sx===null) return; const dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 50) show(idx + (dx<0?1:-1)); sx = null; });
 
 /* language */
 function setLang(l){
-  document.documentElement.dataset.lang = l;
-  document.documentElement.lang = l;
+  document.documentElement.dataset.lang = l; document.documentElement.lang = l;
   document.querySelectorAll(".lang button").forEach(b => b.setAttribute("aria-pressed", b.dataset.set===l));
   try{ localStorage.setItem("lang", l) }catch(e){}
 }

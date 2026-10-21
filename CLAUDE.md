@@ -9,7 +9,11 @@ Hosted free on GitHub Pages from the `main` branch root.
 - Single static page: `index.html` (inline CSS + JS). No build step, no frameworks, no npm.
 - Every visible string exists in BOTH English and German: `<span lang="en">…</span><span lang="de">…</span>`.
   German must be natural, professional German (Sie-form), not word-for-word translation.
-- Projects live in the `PROJECTS` array at the bottom of `index.html`. Images go in `images/<id>.webp`.
+- Practice projects live in `data.js` (generated from the spaceverseltd.com source: `src/constants.ts` + `src/content-de.ts`
+  in repo abnZyean/spaceverse-website). Images: `images/<project-id>/00.webp` (cover, 1600 px), `01…` (gallery, 1400 px),
+  `thumb.webp` (720×540 card). Academic/competition items are in the "Academic & competitions" list in `index.html`.
+- German rule G7: "Architekt/in", "Innenarchitekt/in" and "Landschaftsarchitekt/in" are protected titles in Germany.
+  In German text name the discipline (Architektur, Innenarchitektur, Freiraumplanung), never the title for Zyean.
 - Never invent facts: no made-up project sizes, years, clients, awards or employers. If a detail is missing,
   leave it out and list it in the PR description as a question for Zyean.
 - Keep it fast: WebP images ≤ 400 KB each, max width 1920 px. Lazy-load everything below the fold.
@@ -27,8 +31,8 @@ Hosted free on GitHub Pages from the `main` branch root.
   BISC Nirjhor, CMTD, Dostogir House, Residence Triplex expansion
 
 ## Good next tasks (one per session)
-1. Optimise and add project images Zyean uploads to `images/` (convert to WebP, resize).
-2. Add a project detail lightbox / gallery (several images per project) — still no framework.
+1. Mark which projects Zyean personally led / modelled / rendered (ask him) and show that role in the gallery panel.
+2. Add academic work images (High Tech Park, Pause in a Motion, Bamiyan) once Zyean supplies them.
 3. Generate `cv.pdf` from a CV he provides, linked from the contact section.
 4. Add a German-HOAI-phase label (LP 1–9) to each project once he confirms which phases he did.
 5. Lighthouse pass: performance, accessibility, SEO ≥ 95.
