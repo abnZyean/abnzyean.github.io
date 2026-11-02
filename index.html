@@ -468,7 +468,7 @@ function show(n){
 function info(){
   const p = P[cur];
   document.getElementById("pv-info").innerHTML = ["en","de"].map(l => { const t = p[l] || p.en; const K = l==="de"
-      ? {c:"Auftraggeber",a:"Fläche",s:"Leistung",y:"Jahr",st:"Status",l:"Ort",r:"Meine Rolle"} : {c:"Client",a:"Area",s:"Scope",y:"Year",st:"Status",l:"Location",r:"My role"};
+      ? {c:"Auftraggeber",a:"Fläche",s:"Leistung",y:"Jahr",st:"Status",l:"Ort",r:"Meine Rolle",ld:"Projektleitung"} : {c:"Client",a:"Area",s:"Scope",y:"Year",st:"Status",l:"Location",r:"My role",ld:"Lead architects"};
     return `<div lang="${l}">
       <div class="k">${esc(l==="de"?p.catDe:p.cat)} · ${esc(p.by || "Spaceverse Ltd.")}</div>
       <h3>${esc(t.t)}</h3>
@@ -477,6 +477,7 @@ function info(){
       <dl>
         <dt>${K.l}</dt><dd>${esc(t.loc)}</dd>
         ${t.client?`<dt>${K.c}</dt><dd>${esc(t.client)}</dd>`:""}
+        ${p.lead?`<dt>${K.ld}</dt><dd>${esc(p.lead)}</dd>`:""}
         ${t.area?`<dt>${K.a}</dt><dd>${esc(t.area)}</dd>`:""}
         ${t.scope?`<dt>${K.s}</dt><dd>${esc(t.scope)}</dd>`:""}
         ${t.year?`<dt>${K.y}</dt><dd>${esc(t.year)}</dd>`:""}

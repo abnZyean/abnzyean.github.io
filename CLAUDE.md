@@ -9,8 +9,10 @@ Hosted free on GitHub Pages from the `main` branch root.
 - Single static page: `index.html` (inline CSS + JS). No build step, no frameworks, no npm.
 - Every visible string exists in BOTH English and German: `<span lang="en">…</span><span lang="de">…</span>`.
   German must be natural, professional German (Sie-form), not word-for-word translation.
-- Practice projects live in `data.js` (originally generated from the spaceverseltd.com source: `src/constants.ts` + `src/content-de.ts`
-  in repo abnZyean/spaceverse-website, then edited by hand). Per language each project has `t, loc, d, b, client, area (m²),
+- Practice projects live in `data.js`, synced from the spaceverseltd.com source (`src/constants.ts` + `src/content-de.ts` in repo
+  abnZyean/spaceverse-website; all 21 projects, titles/locations/briefs as there; `lead` = its `architectLead`). Re-sync with
+  the script pattern in git history (commit "Sync all 21 Spaceverse projects"): EN/DE text and images come from the source,
+  the portfolio keeps its own `year`, `status`, `role`, `area` (m²), `by`. Per language each project has `t, loc, d, b, client, area (m²),
   scope, year (period, e.g. "2023 –"), status ("In construction" / "Completed" …), role` (what Xyean personally did —
   shown first in the gallery panel when set). Images: `images/<project-id>/00.webp` (cover, 1600 px), `01…` (gallery, 1400 px),
   `thumb.webp` (720×540 card). Top-level `by` is the credit line in the gallery panel (defaults to Spaceverse Ltd.).
@@ -49,6 +51,8 @@ Hosted free on GitHub Pages from the `main` branch root.
   Mentor (smarthomentor.com). Project roles with dates: Silicon Heights (Sep 2024–), Divisional Training Centre
   (Feb 2024–Feb 2025, for Nippon Koei), Ma Matin Library (Feb 2023–), Single-family Triplex, Mymensingh (Feb 2025–),
   Ma O Shishu Healthcare Clinic (Feb 2025–). Where older CVs or portfolio boards disagree, the signed CV wins.
+  The CV's "Single Family Triplex, Mymensingh" is mapped to spaceverseltd.com's Chayabithi Triplex (Gazipur, client Dostogir
+  Family) — location shown as Gazipur per the project source; Xyean to confirm whether the CV's "Mymensingh" is a typo.
 - From the portfolio boards: thesis "High Tech Park" Studio X, supervisor Dr. Anirban Mostafa, physical model ·
   "Pause in Motion" Studio V metro station · PICC 2024: concept development, plan/presentation drawings · IEB Convention
   Centre 2017 (Agargaon): 3D visualisation + graphic post-production, team Ratul/Yasmin/Imam/Riyadh · Public Library
