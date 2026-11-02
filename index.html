@@ -7,9 +7,39 @@
 <meta name="description" content="Abdullah Al Numan Zyean — licensed architect (Bangladesh, IAB) and 3D visualization artist working in Rhino, Grasshopper and D5 Render. Founder of Spaceverse Ltd., Dhaka. Relocating to Germany in 2027.">
 <meta property="og:title" content="Abdullah Al Numan Zyean — Architecture & ArchViz">
 <meta property="og:description" content="Licensed architect · Rhino/Grasshopper · D5 Render · Relocating to Germany 2027">
-<meta property="og:image" content="images/asset-visualization/00.webp">
+<meta property="og:image" content="https://abnzyean.github.io/images/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Architectural visualization by Abdullah Al Numan Zyean, Spaceverse Ltd.">
+<meta property="og:url" content="https://abnzyean.github.io/">
 <meta property="og:type" content="website">
-<link rel="icon" href="images/zyean.webp">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="de_DE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Abdullah Al Numan Zyean — Architecture & ArchViz">
+<meta name="twitter:description" content="Licensed architect · Rhino/Grasshopper · D5 Render · Relocating to Germany 2027">
+<meta name="twitter:image" content="https://abnzyean.github.io/images/og.jpg">
+<link rel="canonical" href="https://abnzyean.github.io/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/zyean.webp">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Abdullah Al Numan Zyean",
+  "alternateName": "Zyean",
+  "jobTitle": "Architect & 3D Visualization Artist",
+  "url": "https://abnzyean.github.io/",
+  "image": "https://abnzyean.github.io/images/zyean.webp",
+  "email": "mailto:abnzyean@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Dhaka", "addressCountry": "BD" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Khulna University" },
+  "worksFor": { "@type": "Organization", "name": "Spaceverse Ltd.", "url": "https://spaceverseltd.com" },
+  "knowsAbout": ["Architectural visualization", "Rhinoceros 3D", "Grasshopper", "D5 Render", "AutoCAD", "Architecture"],
+  "knowsLanguage": ["bn", "en", "de"],
+  "sameAs": ["https://www.linkedin.com/in/abdullah-numan-architecture/", "https://spaceverseltd.com", "https://smarthomentor.com"]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -43,7 +73,15 @@ header.bar{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--p
 .mark b{color:var(--accent)}
 nav{display:flex;gap:18px;align-items:center;font-size:14px}
 nav a.l{text-decoration:none;color:var(--ink-2)} nav a.l:hover{color:var(--ink)}
-@media(max-width:640px){nav a.l{display:none}}
+.menu{display:none;background:none;border:1px solid var(--ink);color:var(--ink);font-family:var(--mono);font-size:12px;padding:5px 9px;cursor:pointer;letter-spacing:.06em}
+.mnav{display:none;border-top:1px solid var(--line)}
+.mnav a{display:block;padding:13px 0;border-bottom:1px solid var(--line);text-decoration:none;font-size:16px;color:var(--ink)}
+.mnav a:last-child{border-bottom:0}
+@media(max-width:640px){
+  nav a.l{display:none}
+  .menu{display:inline-block}
+  header.bar.open .mnav{display:block}
+}
 .lang{display:flex;border:1px solid var(--ink);font-family:var(--mono);font-size:12px}
 .lang button{background:none;border:0;color:var(--ink);padding:5px 9px;cursor:pointer;font:inherit}
 .lang button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
@@ -153,6 +191,7 @@ dialog::backdrop{background:var(--scrim)}
 .pv-info .k{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#a6a39b}
 .pv-info h3{font-size:28px;line-height:1.1;margin:6px 0 14px;letter-spacing:-.01em}
 .pv-info p{font-size:15px;color:#cfcbc1;margin-bottom:18px}
+.pv-info p.role{border-left:2px solid #f97316;padding-left:12px;color:#ece8de}
 .pv-info dl{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;border-top:1px solid #2c2d31;padding-top:14px;font-size:14px}
 .pv-info dt{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:#a6a39b;padding-top:2px}
 </style>
@@ -171,7 +210,16 @@ dialog::backdrop{background:var(--scrim)}
         <button type="button" data-set="en" aria-pressed="true">EN</button>
         <button type="button" data-set="de" aria-pressed="false">DE</button>
       </div>
+      <button type="button" class="menu" id="menu" aria-expanded="false" aria-controls="mnav"><span lang="en">Menu</span><span lang="de">Menü</span></button>
     </nav>
+  </div>
+  <div class="mnav" id="mnav">
+    <div class="wrap">
+      <a href="#work"><span lang="en">Work</span><span lang="de">Projekte</span></a>
+      <a href="#skills"><span lang="en">Skills</span><span lang="de">Kompetenzen</span></a>
+      <a href="#cv"><span lang="en">CV</span><span lang="de">Lebenslauf</span></a>
+      <a href="#contact"><span lang="en">Contact</span><span lang="de">Kontakt</span></a>
+    </div>
   </div>
 </header>
 
@@ -193,7 +241,7 @@ dialog::backdrop{background:var(--scrim)}
       </div>
       <figure class="portrait">
         <img src="images/zyean.webp" width="900" height="900" alt="Portrait of Abdullah Al Numan Zyean">
-        <figcaption><span>Ar. Zyean Abdullah</span><span lang="en">Founder</span><span lang="de">Gründer</span></figcaption>
+        <figcaption><span>Abdullah Al Numan Zyean</span><span lang="en">Founder</span><span lang="de">Gründer</span></figcaption>
       </figure>
     </div>
 
@@ -213,8 +261,8 @@ dialog::backdrop{background:var(--scrim)}
     <div class="sh"><span class="no">01</span><h2><span lang="en">About</span><span lang="de">Über mich</span></h2></div>
     <div class="about">
       <div>
-        <p lang="en">I'm a licensed architect based in Dhaka, Bangladesh. In 2022 I founded Spaceverse Ltd., a practice with in-house building design, interior and landscape teams. I've led work from concept through RAJUK approval drawings to construction detailing.</p>
-        <p lang="de">Ich lebe in Dhaka, Bangladesch, und habe 2022 Spaceverse Ltd. gegründet – ein Büro mit eigenen Teams für Gebäudeplanung, Innenarchitektur sowie Freiraum- und Lichtplanung. Ich habe Projekte vom Entwurf über die Genehmigungsplanung (RAJUK) bis zur Ausführungsplanung geleitet.</p>
+        <p lang="en">I'm a licensed architect based in Dhaka, Bangladesh. In 2022 I founded Spaceverse Ltd., a practice with in-house building design, interior and landscape teams. I've led work from concept through RAJUK approval drawings to construction detailing. I also founded Smart Home Mentor, a bilingual guide to smart-home planning for homes in Bangladesh.</p>
+        <p lang="de">Ich lebe in Dhaka, Bangladesch, und habe 2022 Spaceverse Ltd. gegründet – ein Büro mit eigenen Teams für Gebäudeplanung, Innenarchitektur sowie Freiraum- und Lichtplanung. Ich habe Projekte vom Entwurf über die Genehmigungsplanung (RAJUK) bis zur Ausführungsplanung geleitet. Außerdem habe ich Smart Home Mentor gegründet, einen zweisprachigen Ratgeber zur Smart-Home-Planung für Wohnungen in Bangladesch.</p>
         <p lang="en">Visualization is the part of the work I care about most. I build precise Rhino models, use Grasshopper for parametric studies, and produce final images in D5 Render, with AI-assisted post-production for client presentations. I also teach part-time at Khulna University's Architecture Discipline.</p>
         <p lang="de">Am meisten begeistert mich die Visualisierung. Ich erstelle präzise Rhino-Modelle, nutze Grasshopper für parametrische Studien und produziere finale Bilder in D5 Render, mit KI-gestützter Nachbearbeitung für Kundenpräsentationen. Außerdem lehre ich in Teilzeit an der Architekturfakultät der Khulna University.</p>
       </div>
@@ -222,9 +270,10 @@ dialog::backdrop{background:var(--scrim)}
         <li><b><span lang="en">Degree</span><span lang="de">Abschluss</span></b><span>B.Arch, Khulna University</span></li>
         <li><b><span lang="en">Registration</span><span lang="de">Zulassung</span></b><span lang="en">IAB accredited · RAJUK enlisted</span><span lang="de">IAB · RAJUK (Bangladesch)</span></li>
         <li><b><span lang="en">Practice</span><span lang="de">Büro</span></b><span>Spaceverse Ltd. (2022–)</span></li>
+        <li><b><span lang="en">Also founded</span><span lang="de">Weitere Gründung</span></b><span><a href="https://smarthomentor.com" target="_blank" rel="noopener">Smart Home Mentor</a></span></li>
         <li><b><span lang="en">Teaching</span><span lang="de">Lehre</span></b><span lang="en">Part-time, Khulna University</span><span lang="de">Teilzeit, Khulna University</span></li>
-        <li><b><span lang="en">Certified</span><span lang="de">Zertifiziert</span></b><span>Rhino Professional · D5 User</span></li>
-        <li><b>Shortlists</b><span lang="en">Bamiyan Cultural Centre (UNESCO) · Berger Award</span><span lang="de">Kulturzentrum Bamiyan (UNESCO) · Berger Award</span></li>
+        <li><b><span lang="en">Certified</span><span lang="de">Zertifiziert</span></b><span lang="en">Rhino Certified Professional (2020) · D5 Certified User (2025)</span><span lang="de">Rhino Certified Professional (2020) · D5 Certified User (2025)</span></li>
+        <li><b>Shortlists</b><span lang="en">Bamiyan Cultural Centre (UNESCO) · Berger Award 2023 · PICC 2024</span><span lang="de">Kulturzentrum Bamiyan (UNESCO) · Berger Award 2023 · PICC 2024</span></li>
         <li><b>English</b><span lang="en">IELTS Academic 7.0 (C1)</span><span lang="de">IELTS Academic 7,0 (C1)</span></li>
         <li><b>Deutsch</b><span lang="en">A2 course level, working towards B2</span><span lang="de">A2 (Kursniveau), Ziel B2</span></li>
       </ul>
@@ -252,8 +301,17 @@ dialog::backdrop{background:var(--scrim)}
           <span lang="en">A metro station designed as a moment of rest inside movement. CAD plans, Rhino model and physical model.</span>
           <span lang="de">Eine U-Bahn-Station als Moment der Ruhe inmitten der Bewegung. CAD-Pläne, Rhino-Modell und physisches Modell.</span></li>
         <li><b><span lang="en">Bamiyan Cultural Centre</span><span lang="de">Kulturzentrum Bamiyan</span><span class="badge">Shortlist</span></b><i><span lang="en">Competition · UNESCO</span><span lang="de">Wettbewerb · UNESCO</span></i>
-          <span lang="en">International competition entry, shortlisted.</span>
-          <span lang="de">Beitrag zum internationalen Wettbewerb, in die engere Auswahl gekommen.</span></li>
+          <span lang="en">International competition entry, shortlisted; exhibited at the UNESCO Regional Gallery, Bamiyan (2015).</span>
+          <span lang="de">Beitrag zum internationalen Wettbewerb, in die engere Auswahl gekommen; ausgestellt in der UNESCO Regional Gallery, Bamiyan (2015).</span></li>
+        <li><b><span lang="en">Purbachal International Convention Centre (PICC)</span><span lang="de">Purbachal International Convention Centre (PICC)</span><span class="badge">Shortlist</span></b><i><span lang="en">Competition · IAB · 2024</span><span lang="de">Wettbewerb · IAB · 2024</span></i>
+          <span lang="en">Competition entry shortlisted for exhibition by the Institute of Architects Bangladesh.</span>
+          <span lang="de">Wettbewerbsbeitrag, vom Institute of Architects Bangladesh für die Ausstellung ausgewählt.</span></li>
+        <li><b><span lang="en">Berger Award for Excellence in Architecture</span><span lang="de">Berger Award for Excellence in Architecture</span><span class="badge">Shortlist</span></b><i><span lang="en">Award · IAB · 2023</span><span lang="de">Preis · IAB · 2023</span></i>
+          <span lang="en">Nominated and shortlisted for exhibition.</span>
+          <span lang="de">Nominiert und für die Ausstellung in die engere Auswahl gekommen.</span></li>
+        <li><b><span lang="en">Competition exhibitions</span><span lang="de">Wettbewerbsausstellungen</span></b><i>2017 · 2019</i>
+          <span lang="en">IEB Convention Centre (IAB, 2017) · Affordable Housing, Dolpur (Build Bangladesh, 2019).</span>
+          <span lang="de">IEB Convention Centre (IAB, 2017) · Affordable Housing, Dolpur (Build Bangladesh, 2019).</span></li>
       </ul>
     </div>
   </div>
@@ -299,22 +357,43 @@ dialog::backdrop{background:var(--scrim)}
     <div class="sh"><span class="no">04</span><h2><span lang="en">Experience & education</span><span lang="de">Werdegang</span></h2></div>
     <ul class="tl">
       <li><span class="yr">2022 –</span><div>
-        <h4><span lang="en">Founder & Principal Architect, Spaceverse Ltd.</span><span lang="de">Gründer & Büroinhaber, Spaceverse Ltd.</span></h4>
-        <p lang="en">Mirpur, Dhaka. Building design, interior and landscape. Clients include LGED, Mymensingh City Corporation, Asset Developments and private developers; work from concept and visualization to RAJUK approval sets.</p>
-        <p lang="de">Mirpur, Dhaka. Gebäudeplanung, Innenarchitektur sowie Freiraum- und Lichtplanung. Auftraggeber u. a. LGED, Mymensingh City Corporation, Asset Developments und private Bauträger – vom Entwurf und der Visualisierung bis zur Genehmigungsplanung (RAJUK).</p>
+        <h4><span lang="en">Founder & Lead Architect, Spaceverse Ltd.</span><span lang="de">Gründer & Leitung, Spaceverse Ltd.</span></h4>
+        <p lang="en">Mirpur, Dhaka. Building design, interior, landscape and 3D visualization with an in-house team of seven. Clients include LGED, Mymensingh City Corporation, Asset Developments and private developers; work from concept and visualization to RAJUK approval sets and site supervision.</p>
+        <p lang="de">Mirpur, Dhaka. Gebäudeplanung, Innenarchitektur, Freiraumplanung und 3D-Visualisierung mit einem siebenköpfigen Team. Auftraggeber u. a. LGED, Mymensingh City Corporation, Asset Developments und private Bauträger – vom Entwurf und der Visualisierung bis zur Genehmigungsplanung (RAJUK) und Bauüberwachung.</p>
+      </div></li>
+      <li><span class="yr">2026</span><div>
+        <h4><span lang="en">External Lecturer (part-time), Department of Architecture, HSTU</span><span lang="de">Lehrbeauftragter (Teilzeit), Department of Architecture, HSTU</span></h4>
+        <p lang="en">Hajee Mohammad Danesh Science and Technology University, Dinajpur. Appointed Jan 2026 to teach “Computer Graphics” (ARC-222) to second-year architecture students.</p>
+        <p lang="de">Hajee Mohammad Danesh Science and Technology University, Dinajpur. Seit Jan. 2026 Lehrauftrag für „Computer Graphics“ (ARC-222) im zweiten Studienjahr Architektur.</p>
+      </div></li>
+      <li><span class="yr">2024 – 2025</span><div>
+        <h4><span lang="en">Architect (part-time), Nippon Koei Bangladesh Ltd.</span><span lang="de">Architektur (Teilzeit), Nippon Koei Bangladesh Ltd.</span></h4>
+        <p lang="en">Gulshan, Dhaka. Feb 2024 – Feb 2025. Architectural design and 3D visualization for the Southern Chattogram Development Project (SCRDP), a design-supervision and management consultancy for LGED, including the Divisional Training Centre in Cox’s Bazar.</p>
+        <p lang="de">Gulshan, Dhaka. Feb. 2024 – Feb. 2025. Entwurf und 3D-Visualisierung im Southern Chattogram Development Project (SCRDP), einer Planungs- und Bauüberwachungsberatung für LGED, u. a. für das Divisional Training Centre in Cox’s Bazar.</p>
       </div></li>
       <li><span class="yr"><span lang="en">Ongoing</span><span lang="de">Laufend</span></span><div>
         <h4><span lang="en">Part-time teaching staff, Architecture Discipline</span><span lang="de">Lehrbeauftragter (Teilzeit), Architekturfakultät</span></h4>
         <p>Khulna University</p>
       </div></li>
-      <li><span class="yr"><span lang="en">Earlier</span><span lang="de">Zuvor</span></span><div>
-        <h4><span lang="en">Project management & construction detailing</span><span lang="de">Projektleitung & Ausführungsplanung</span></h4>
-        <p lang="en">Ma O Shishu Hospital, Uttara, in joint venture.</p>
-        <p lang="de">Ma O Shishu Hospital, Uttara, in einer Arbeitsgemeinschaft.</p>
+      <li><span class="yr">2020 – 2022</span><div>
+        <h4><span lang="en">Architect, VolumeZero Ltd.</span><span lang="de">Architektur, VolumeZero Ltd.</span></h4>
+        <p lang="en">Gulshan, Dhaka. Feb 2020 – Jul 2022. Architectural detail design and visualization.</p>
+        <p lang="de">Gulshan, Dhaka. Feb. 2020 – Jul. 2022. Detailplanung und Visualisierung.</p>
       </div></li>
-      <li><span class="yr">B.Arch</span><div>
+      <li><span class="yr">2019 – 2020</span><div>
+        <h4><span lang="en">Assistant Architect, Age & Edge Architecture Studio</span><span lang="de">Architektur (Assistenz), Age & Edge Architecture Studio</span></h4>
+        <p lang="en">Mohammadpur, Dhaka. Sep 2019 – Jan 2020, design department.</p>
+        <p lang="de">Mohammadpur, Dhaka. Sep. 2019 – Jan. 2020, Entwurfsabteilung.</p>
+      </div></li>
+      <li><span class="yr">2017 – 2018</span><div>
+        <h4><span lang="en">Intern Architect, Bose & Partners</span><span lang="de">Praktikum Architektur, Bose & Partners</span></h4>
+        <p lang="en">Khulna. Aug 2017 – Sep 2018, during the B.Arch programme.</p>
+        <p lang="de">Khulna. Aug. 2017 – Sep. 2018, während des Studiums.</p>
+      </div></li>
+      <li><span class="yr">2011 – 2019</span><div>
         <h4><span lang="en">Bachelor of Architecture</span><span lang="de">Bachelor of Architecture (B.Arch)</span></h4>
-        <p>Khulna University, Bangladesh</p>
+        <p lang="en">Khulna University, Bangladesh. Five-year professional degree, 202.5 credits, graduated July 2019. Thesis: High Tech Park, Mymensingh.</p>
+        <p lang="de">Khulna University, Bangladesch. Fünfjähriges Vollstudium, 202,5 Credits, Abschluss Juli 2019. Abschlussarbeit: High Tech Park, Mymensingh.</p>
       </div></li>
     </ul>
   </div>
@@ -328,6 +407,7 @@ dialog::backdrop{background:var(--scrim)}
       <a class="btn solid" href="mailto:abnzyean@gmail.com">abnzyean@gmail.com</a>
       <a class="btn" href="https://www.linkedin.com/in/abdullah-numan-architecture/" target="_blank" rel="noopener">LinkedIn</a>
       <a class="btn" href="https://spaceverseltd.com" target="_blank" rel="noopener">spaceverseltd.com</a>
+      <a class="btn" href="https://smarthomentor.com" target="_blank" rel="noopener">smarthomentor.com</a>
       <a class="btn" href="cv.pdf" target="_blank" rel="noopener"><span lang="en">Download CV (PDF)</span><span lang="de">Lebenslauf (PDF)</span></a>
     </div>
   </div>
@@ -378,7 +458,7 @@ document.getElementById("grid").innerHTML = P.map((p,i) => `
           <div class="meta"><span>${esc(l==="de"?p.catDe:p.cat)}</span><span>${esc(t.loc)}</span></div>
           <h3>${esc(t.t)}</h3>
           <p>${esc(t.d)}</p>
-          <div class="foot">${esc(t.area && t.area!=="N/A" ? t.area+" · " : "")}${esc(t.year)}</div>
+          <div class="foot">${esc([t.area, t.year, t.status].filter(Boolean).join(" · "))}</div>
         </div>`; }).join("")}
     </div>
   </button>`).join("");
@@ -403,17 +483,19 @@ function show(n){
 function info(){
   const p = P[cur];
   document.getElementById("pv-info").innerHTML = ["en","de"].map(l => { const t = p[l] || p.en; const K = l==="de"
-      ? {c:"Auftraggeber",a:"Fläche",s:"Leistung",y:"Status",l:"Ort"} : {c:"Client",a:"Area",s:"Scope",y:"Status",l:"Location"};
+      ? {c:"Auftraggeber",a:"Fläche",s:"Leistung",y:"Jahr",st:"Status",l:"Ort",r:"Meine Rolle"} : {c:"Client",a:"Area",s:"Scope",y:"Year",st:"Status",l:"Location",r:"My role"};
     return `<div lang="${l}">
       <div class="k">${esc(l==="de"?p.catDe:p.cat)} · Spaceverse Ltd.</div>
       <h3>${esc(t.t)}</h3>
+      ${t.role?`<p class="role"><span class="k">${K.r}</span><br>${esc(t.role)}</p>`:""}
       <p>${esc(t.b || t.d)}</p>
       <dl>
         <dt>${K.l}</dt><dd>${esc(t.loc)}</dd>
         ${t.client?`<dt>${K.c}</dt><dd>${esc(t.client)}</dd>`:""}
-        ${t.area && t.area!=="N/A"?`<dt>${K.a}</dt><dd>${esc(t.area)}</dd>`:""}
+        ${t.area?`<dt>${K.a}</dt><dd>${esc(t.area)}</dd>`:""}
         ${t.scope?`<dt>${K.s}</dt><dd>${esc(t.scope)}</dd>`:""}
         ${t.year?`<dt>${K.y}</dt><dd>${esc(t.year)}</dd>`:""}
+        ${t.status?`<dt>${K.st}</dt><dd>${esc(t.status)}</dd>`:""}
       </dl></div>`; }).join("");
 }
 function open(i){
@@ -433,6 +515,11 @@ dlg.addEventListener("keydown", e => { if (e.key==="ArrowRight") show(idx+1); if
 let sx = null;
 dlg.addEventListener("touchstart", e => { sx = e.touches[0].clientX; }, {passive:true});
 dlg.addEventListener("touchend", e => { if (sx===null) return; const dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 50) show(idx + (dx<0?1:-1)); sx = null; });
+
+/* mobile menu */
+const bar = document.querySelector("header.bar"), menuBtn = document.getElementById("menu");
+menuBtn.addEventListener("click", () => { const o = bar.classList.toggle("open"); menuBtn.setAttribute("aria-expanded", o); });
+document.querySelectorAll("#mnav a").forEach(a => a.addEventListener("click", () => { bar.classList.remove("open"); menuBtn.setAttribute("aria-expanded", "false"); }));
 
 /* language */
 function setLang(l){
