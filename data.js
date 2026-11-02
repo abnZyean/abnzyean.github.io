@@ -381,27 +381,27 @@ window.PRACTICE_PROJECTS = [
   ],
   "en": {
    "t": "Residence Triplex",
-   "loc": "Gazipur",
+   "loc": "Mymensingh, Bangladesh",
    "d": "A modern triplex villa exploring geometric volumes and private green terraces.",
    "b": "A private villa of 6,500 square feet, organised as three interlocking volumes that step back to open a private green terrace at each level. The exterior reads as solid geometry from the road and loosens toward the garden side, screening the family's living spaces from the street without closing them off from light. Landscape and architecture were designed together, so the planting reinforces each shift in the massing.",
    "client": "Private Villa Owner",
-   "year": "",
+   "year": "2025 –",
    "area": "600 m²",
    "scope": "Architecture & Landscaping",
    "status": "In construction",
-   "role": "Lead architect (Spaceverse): design concept, detail design, site supervision."
+   "role": "Architect (Spaceverse): design concept, detail design, site supervision. Feb 2025 – ongoing."
   },
   "de": {
    "t": "Residence Triplex",
-   "loc": "Gazipur",
+   "loc": "Mymensingh, Bangladesch",
    "d": "Eine moderne Triplex-Villa – ein dreigeschossiges Einfamilienhaus mit geometrischen Baukörpern und privaten grünen Terrassen.",
    "b": "Eine private Villa mit ca. 604 m² (6.500 sq ft), gegliedert in drei ineinandergreifende Baukörper, die zurückspringen und auf jeder Ebene eine private grüne Terrasse freigeben. Zur Straße wirkt das Haus als geschlossene Geometrie und öffnet sich zum Garten hin; so sind die Wohnräume der Familie vor der Straße geschützt, ohne vom Licht abgeschnitten zu sein. Freiraum und Architektur wurden gemeinsam entworfen, sodass die Bepflanzung jeden Versatz der Baukörper unterstreicht.",
    "client": "Privater Bauherr",
-   "year": "",
+   "year": "seit 2025",
    "area": "600 m²",
    "scope": "Architektur und Freiraumgestaltung",
    "status": "Im Bau",
-   "role": "Projektleitung (Spaceverse): Entwurfskonzept, Detailplanung, Bauüberwachung."
+   "role": "Architektur (Spaceverse): Entwurfskonzept, Detailplanung, Bauüberwachung. Seit Feb. 2025."
   },
   "by": "Spaceverse Ltd."
  },
@@ -452,11 +452,11 @@ window.PRACTICE_PROJECTS = [
    "d": "A nine-storied specialised gynaecology hospital serving as a social landmark.",
    "b": "A nine-storied specialised gynaecology hospital across 45,000 square feet, planned so public, patient and clinical circulation never collide. The entrance sequence and waiting areas were given daylight and outward views, which carries more weight in a maternity setting than in general healthcare. Solid-to-void rhythm and shading depth keep ward-facing rooms comfortable while giving the building civic presence on its Uttara street.",
    "client": "MA O Sishu Hospital Trust",
-   "year": "2023 –",
+   "year": "2025 –",
    "area": "4,180 m²",
    "scope": "Healthcare Architecture & Planning",
    "status": "In construction",
-   "role": "Architect on behalf of Spaceverse, in joint venture with MAIN Arch.: project management, construction detail drawings, assisting the project lead architect, site supervision, 3D visualization."
+   "role": "Architect on behalf of Spaceverse, in joint venture with MAIN Arch.: assisting the project lead architect, site supervision, detail design. Feb 2025 – ongoing."
   },
   "de": {
    "t": "MA O Sishu Hospital",
@@ -464,11 +464,11 @@ window.PRACTICE_PROJECTS = [
    "d": "Eine neungeschossige Frauenklinik (Mutter-Kind-Klinik), die als sozialer Orientierungspunkt dient.",
    "b": "Eine neungeschossige Frauenklinik (EG + 8 OG) mit ca. 4.180 m² (45.000 sq ft), so geplant, dass sich die Wege von Öffentlichkeit, Patientinnen und klinischem Betrieb nie kreuzen. Eingangsbereich und Wartezonen erhalten Tageslicht und Ausblick – in der Geburtshilfe wiegt das schwerer als im allgemeinen Krankenhausbau. Der Rhythmus von geschlossenen und offenen Flächen und die Tiefe der Verschattung halten die Patientenzimmer angenehm und geben dem Gebäude an seiner Straße in Uttara eine öffentliche Präsenz.",
    "client": "MA O Sishu Hospital Trust",
-   "year": "seit 2023",
+   "year": "seit 2025",
    "area": "4.180 m²",
    "scope": "Gesundheitsbau und Planung",
    "status": "Im Bau",
-   "role": "Architektur für Spaceverse, in Arbeitsgemeinschaft mit MAIN Arch.: Projektsteuerung, Ausführungsdetails, Unterstützung der Projektleitung, Bauüberwachung, 3D-Visualisierung."
+   "role": "Architektur für Spaceverse, in Arbeitsgemeinschaft mit MAIN Arch.: Unterstützung der Projektleitung, Bauüberwachung, Detailplanung. Seit Feb. 2025."
   },
   "by": "Spaceverse Ltd. · JV with MAIN Arch."
  },
