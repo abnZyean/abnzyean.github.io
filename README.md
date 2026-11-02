@@ -1,4 +1,4 @@
-# Zyean — Architect & ArchViz portfolio
+# Xyean — Architect & ArchViz portfolio
 
 Bilingual (English / Deutsch) one-page portfolio. Plain HTML, no build step, free hosting on GitHub Pages.
 
