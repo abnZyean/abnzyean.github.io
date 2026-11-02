@@ -22,6 +22,7 @@ Hosted free on GitHub Pages from the `main` branch root.
 - `cv.pdf` is generated from `cv.src.html` (public version: no address, phone, DOB, referees' contacts). Regenerate with
   `google-chrome --headless=new --no-pdf-header-footer --print-to-pdf=cv.pdf cv.src.html`. Keep it at 2 A4 pages.
 - `images/og.jpg` (1200×630) is the link-preview image; `favicon.svg` is the tab icon.
+- After changing `data.js`, bump the `?v=` on its `<script>` tag in `index.html` (GitHub Pages caches files for 10 min).
 - German rule G7: "Architekt/in", "Innenarchitekt/in" and "Landschaftsarchitekt/in" are protected titles in Germany.
   In German text name the discipline (Architektur, Innenarchitektur, Freiraumplanung), never the title for Xyean.
 - Never invent facts: no made-up project sizes, years, clients, awards or employers. If a detail is missing,
