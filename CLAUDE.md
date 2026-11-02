@@ -13,7 +13,10 @@ Hosted free on GitHub Pages from the `main` branch root.
   in repo abnZyean/spaceverse-website, then edited by hand). Per language each project has `t, loc, d, b, client, area (m²),
   scope, year (period, e.g. "2023 –"), status ("In construction" / "Completed" …), role` (what Xyean personally did —
   shown first in the gallery panel when set). Images: `images/<project-id>/00.webp` (cover, 1600 px), `01…` (gallery, 1400 px),
-  `thumb.webp` (720×540 card). Academic/competition items are in the "Academic & competitions" list in `index.html`.
+  `thumb.webp` (720×540 card). Top-level `by` is the credit line in the gallery panel (defaults to Spaceverse Ltd.).
+  Academic (`cat: "Academic"`) and competition (`cat: "Competition"`) projects are in `data.js` too, with galleries cropped
+  from Xyean's A3 portfolio boards (Drive: ACADEMIC / COMPETITION / PROFESSIONAL PORTFOLIO.pdf). Items without images
+  (Bamiyan, Berger Award) stay in the "Also shortlisted & exhibited" list in `index.html`.
 - `cv.pdf` is generated from `cv.src.html` (public version: no address, phone, DOB, referees' contacts). Regenerate with
   `google-chrome --headless=new --no-pdf-header-footer --print-to-pdf=cv.pdf cv.src.html`. Keep it at 2 A4 pages.
 - `images/og.jpg` (1200×630) is the link-preview image; `favicon.svg` is the tab icon.
@@ -43,13 +46,21 @@ Hosted free on GitHub Pages from the `main` branch root.
   shortlisted Apr 2024 · Berger Award Mar 2023 · Dolpur housing exhibition Nov 2019 · IEB Convention Centre 2017 ·
   Bamiyan Feb 2015 · IJMRAP paper 2021 (co-author) · AAKAr sports & cultural manager Feb 2022– · founder of Smart Home
   Mentor (smarthomentor.com). Project roles with dates: Silicon Heights (Sep 2024–), Divisional Training Centre
-  (Feb 2024–Feb 2025, for Nippon Koei), Ma Matin Library (Feb 2023–), Residence Triplex (Feb 2025–), Ma O Shishu (Feb 2025–).
+  (Feb 2024–Feb 2025, for Nippon Koei), Ma Matin Library (Feb 2023–), Residence Triplex (start date conflicts between
+  CVs: Feb 2024 / Feb 2025 — left blank), Ma O Shishu (2023– per portfolio board and older CV; newer CV says Feb 2025).
+- From the portfolio boards: thesis "High Tech Park" Studio X, supervisor Dr. Anirban Mostafa, physical model ·
+  "Pause in Motion" Studio V metro station · PICC 2024: concept development, plan/presentation drawings · IEB Convention
+  Centre 2017 (Agargaon): 3D visualisation + graphic post-production, team Ratul/Yasmin/Imam/Riyadh · Public Library
+  Shahbag 2017: same role, team Ratul/Emran/Riyadh · "Land is More" Affordable Housing Dolpur, Savar 2019: same role,
+  team Ratul/Yasmin/Abbas · Ma O Shishu board: Uttara, 670 m² site, FAR 5.5, JV with MAIN Arch, PM + construction
+  detail drawings · Ma Matin board says project year 2018–19 (conflicts with CV Feb 2023–; CV used).
+- Live LinkedIn URL: https://www.linkedin.com/in/architect-zyean/ (abdullah-numan-architecture redirects to it).
 - Name: Abdullah Al Numan Xyean (legal spelling on passport/certificates; Xyean's decision 2 Nov 2026: use Xyean on the site
   and CV). The GitHub handle/URL abnzyean and the email abnzyean@gmail.com keep the old spelling.
 
 ## Good next tasks (one per session)
-1. Fill `role` and `year` for the 10 projects that still have none (ask Xyean) — see the PR questions list.
-2. Add academic work images (High Tech Park, Pause in a Motion, Bamiyan, PICC) once Xyean supplies them.
+1. Fill `role` and `year` for the 10 practice projects that still have none (ask Xyean) — see the PR questions list.
+2. Add Bamiyan Cultural Centre and Berger Award images once Xyean supplies them (not in the Drive portfolios).
 3. Add process material for the ArchViz target: clay/wireframe → final pairs, day/night of one view, a Grasshopper study, a short reel.
 4. Add a one-line work-permit/visa status in the hero summary once Xyean confirms it.
 5. Add a German-HOAI-phase label (LP 1–9) to each project once he confirms which phases he did.

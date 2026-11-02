@@ -1,7 +1,7 @@
-/* Generated from spaceverseltd.com project data (src/constants.ts + src/content-de.ts).
-   Fields per language: t (title), loc, d (short), b (long), client, area (m²), scope,
-   year (completion year — fill in), status (In construction / Completed / Visualization only …),
-   role (what Zyean personally did on the project — shown in the gallery panel when set). */
+/* Practice projects originally generated from spaceverseltd.com (src/constants.ts + src/content-de.ts), then edited by hand.
+   Academic and competition projects: images cropped from Xyean's A3 portfolio boards.
+   Fields per language: t (title), loc, d (short), b (long), client, area (m²), scope, year (period), status, role
+   (what Xyean personally did — shown first in the gallery panel when set). Top-level: id, cat, catDe, by (credit line), imgs. */
 window.PRACTICE_PROJECTS = [
  {
   "id": "asset-visualization",
@@ -67,7 +67,8 @@ window.PRACTICE_PROJECTS = [
    "scope": "Architekturvisualisierung",
    "status": "Im Bau",
    "role": ""
-  }
+  },
+  "by": "Spaceverse Ltd."
  },
  {
   "id": "sare-springfield",
@@ -133,7 +134,8 @@ window.PRACTICE_PROJECTS = [
    "scope": "Architekturvisualisierung",
    "status": "Im Bau",
    "role": ""
-  }
+  },
+  "by": "Spaceverse Ltd."
  },
  {
   "id": "silicon-europa",
@@ -199,7 +201,8 @@ window.PRACTICE_PROJECTS = [
    "scope": "Wohnungsbau",
    "status": "Im Bau",
    "role": ""
-  }
+  },
+  "by": "Spaceverse Ltd."
  },
  {
   "id": "silicon-heights",
@@ -265,7 +268,8 @@ window.PRACTICE_PROJECTS = [
    "scope": "Entwurf eines Wohn- und Geschäftshauses",
    "status": "Im Bau",
    "role": "Architektur (Spaceverse): Entwurfskonzept, Detail- und Ausführungsplanung, 3D-Visualisierung, Bauüberwachung. Seit Sep. 2024."
-  }
+  },
+  "by": "Spaceverse Ltd."
  },
  {
   "id": "rasel-residence",
@@ -331,7 +335,8 @@ window.PRACTICE_PROJECTS = [
    "scope": "Wohnungsbau",
    "status": "Im Bau",
    "role": ""
-  }
+  },
+  "by": "Spaceverse Ltd."
  },
  {
   "id": "gazipur-triplex",
@@ -380,11 +385,11 @@ window.PRACTICE_PROJECTS = [
    "d": "A modern triplex villa exploring geometric volumes and private green terraces.",
    "b": "A private villa of 6,500 square feet, organised as three interlocking volumes that step back to open a private green terrace at each level. The exterior reads as solid geometry from the road and loosens toward the garden side, screening the family's living spaces from the street without closing them off from light. Landscape and architecture were designed together, so the planting reinforces each shift in the massing.",
    "client": "Private Villa Owner",
-   "year": "2025 –",
+   "year": "",
    "area": "600 m²",
    "scope": "Architecture & Landscaping",
    "status": "In construction",
-   "role": "Architect (Spaceverse): design concept, detail design, site supervision. Feb 2025 – ongoing."
+   "role": "Lead architect (Spaceverse): design concept, detail design, site supervision."
   },
   "de": {
    "t": "Residence Triplex",
@@ -392,12 +397,13 @@ window.PRACTICE_PROJECTS = [
    "d": "Eine moderne Triplex-Villa – ein dreigeschossiges Einfamilienhaus mit geometrischen Baukörpern und privaten grünen Terrassen.",
    "b": "Eine private Villa mit ca. 604 m² (6.500 sq ft), gegliedert in drei ineinandergreifende Baukörper, die zurückspringen und auf jeder Ebene eine private grüne Terrasse freigeben. Zur Straße wirkt das Haus als geschlossene Geometrie und öffnet sich zum Garten hin; so sind die Wohnräume der Familie vor der Straße geschützt, ohne vom Licht abgeschnitten zu sein. Freiraum und Architektur wurden gemeinsam entworfen, sodass die Bepflanzung jeden Versatz der Baukörper unterstreicht.",
    "client": "Privater Bauherr",
-   "year": "seit 2025",
+   "year": "",
    "area": "600 m²",
    "scope": "Architektur und Freiraumgestaltung",
    "status": "Im Bau",
-   "role": "Architektur (Spaceverse): Entwurfskonzept, Detailplanung, Bauüberwachung. Seit Feb. 2025."
-  }
+   "role": "Projektleitung (Spaceverse): Entwurfskonzept, Detailplanung, Bauüberwachung."
+  },
+  "by": "Spaceverse Ltd."
  },
  {
   "id": "ma-o-sishu-hospital",
@@ -446,11 +452,11 @@ window.PRACTICE_PROJECTS = [
    "d": "A nine-storied specialised gynaecology hospital serving as a social landmark.",
    "b": "A nine-storied specialised gynaecology hospital across 45,000 square feet, planned so public, patient and clinical circulation never collide. The entrance sequence and waiting areas were given daylight and outward views, which carries more weight in a maternity setting than in general healthcare. Solid-to-void rhythm and shading depth keep ward-facing rooms comfortable while giving the building civic presence on its Uttara street.",
    "client": "MA O Sishu Hospital Trust",
-   "year": "2025 –",
+   "year": "2023 –",
    "area": "4,180 m²",
    "scope": "Healthcare Architecture & Planning",
    "status": "In construction",
-   "role": "Architect on behalf of Spaceverse, in joint venture with MAIN Arch.: assisting the project lead architect, site supervision, detail design. Feb 2025 – ongoing."
+   "role": "Architect on behalf of Spaceverse, in joint venture with MAIN Arch.: project management, construction detail drawings, assisting the project lead architect, site supervision, 3D visualization."
   },
   "de": {
    "t": "MA O Sishu Hospital",
@@ -458,12 +464,13 @@ window.PRACTICE_PROJECTS = [
    "d": "Eine neungeschossige Frauenklinik (Mutter-Kind-Klinik), die als sozialer Orientierungspunkt dient.",
    "b": "Eine neungeschossige Frauenklinik (EG + 8 OG) mit ca. 4.180 m² (45.000 sq ft), so geplant, dass sich die Wege von Öffentlichkeit, Patientinnen und klinischem Betrieb nie kreuzen. Eingangsbereich und Wartezonen erhalten Tageslicht und Ausblick – in der Geburtshilfe wiegt das schwerer als im allgemeinen Krankenhausbau. Der Rhythmus von geschlossenen und offenen Flächen und die Tiefe der Verschattung halten die Patientenzimmer angenehm und geben dem Gebäude an seiner Straße in Uttara eine öffentliche Präsenz.",
    "client": "MA O Sishu Hospital Trust",
-   "year": "seit 2025",
+   "year": "seit 2023",
    "area": "4.180 m²",
    "scope": "Gesundheitsbau und Planung",
    "status": "Im Bau",
-   "role": "Architektur für Spaceverse, in Arbeitsgemeinschaft mit MAIN Arch.: Unterstützung der Projektleitung, Bauüberwachung, Detailplanung. Seit Feb. 2025."
-  }
+   "role": "Architektur für Spaceverse, in Arbeitsgemeinschaft mit MAIN Arch.: Projektsteuerung, Ausführungsdetails, Unterstützung der Projektleitung, Bauüberwachung, 3D-Visualisierung."
+  },
+  "by": "Spaceverse Ltd. · JV with MAIN Arch."
  },
  {
   "id": "ma-matin-library",
@@ -501,7 +508,7 @@ window.PRACTICE_PROJECTS = [
    "area": "1,160 m²",
    "scope": "Public Institutional Library Architecture",
    "status": "In construction",
-   "role": "Architect (Spaceverse): detail design and construction drawings, landscape detail design, 3D visualization, site supervision. Feb 2023 – ongoing."
+   "role": "Project lead (Spaceverse): project management, detail design and working drawings, landscape detail design, 3D visualization, site supervision."
   },
   "de": {
    "t": "M.A. Matin Public Library",
@@ -513,8 +520,9 @@ window.PRACTICE_PROJECTS = [
    "area": "1.160 m²",
    "scope": "Öffentlicher Bibliotheksbau",
    "status": "Im Bau",
-   "role": "Architektur (Spaceverse): Detail- und Ausführungsplanung, Freiraum-Detailplanung, 3D-Visualisierung, Bauüberwachung. Seit Feb. 2023."
-  }
+   "role": "Projektleitung (Spaceverse): Projektsteuerung, Detail- und Ausführungsplanung, Freiraum-Detailplanung, 3D-Visualisierung, Bauüberwachung."
+  },
+  "by": "Spaceverse Ltd."
  },
  {
   "id": "divisional-training-centre",
@@ -575,7 +583,8 @@ window.PRACTICE_PROJECTS = [
    "scope": "Architektur, Fassade und Freiraumgestaltung",
    "status": "Im Bau",
    "role": "Architektur für Nippon Koei Bangladesh Ltd. (Planungs- und Bauüberwachungsberatung für LGED): Unterstützung der Projektleitung, Bauüberwachung, Detailplanung. Feb. 2024 – Feb. 2025."
-  }
+  },
+  "by": "Nippon Koei Bangladesh Ltd. for LGED"
  },
  {
   "id": "gazipur-mosque",
@@ -641,7 +650,8 @@ window.PRACTICE_PROJECTS = [
    "scope": "Sakralbau",
    "status": "Im Bau",
    "role": ""
-  }
+  },
+  "by": "Spaceverse Ltd."
  },
  {
   "id": "dapunia-bazar-mosque",
@@ -687,7 +697,8 @@ window.PRACTICE_PROJECTS = [
    "scope": "Sakralbau und Innenarchitektur",
    "status": "Im Bau",
    "role": ""
-  }
+  },
+  "by": "Spaceverse Ltd."
  },
  {
   "id": "cmtd-commandant-office",
@@ -753,7 +764,8 @@ window.PRACTICE_PROJECTS = [
    "scope": "Innenarchitektur für eine militärische Einrichtung",
    "status": "Im Bau",
    "role": ""
-  }
+  },
+  "by": "Spaceverse Ltd."
  },
  {
   "id": "bisc-nirjhor-interior",
@@ -819,7 +831,8 @@ window.PRACTICE_PROJECTS = [
    "scope": "Innenarchitektur für eine Bildungseinrichtung",
    "status": "Im Bau",
    "role": ""
-  }
+  },
+  "by": "Spaceverse Ltd."
  },
  {
   "id": "dostogir-house-interior",
@@ -885,7 +898,8 @@ window.PRACTICE_PROJECTS = [
    "scope": "Innenarchitektur",
    "status": "Im Bau",
    "role": ""
-  }
+  },
+  "by": "Spaceverse Ltd."
  },
  {
   "id": "banasree-interior",
@@ -951,6 +965,339 @@ window.PRACTICE_PROJECTS = [
    "scope": "Innenarchitektur",
    "status": "Im Bau",
    "role": ""
-  }
+  },
+  "by": "Spaceverse Ltd."
+ },
+ {
+  "id": "high-tech-park",
+  "cat": "Academic",
+  "catDe": "Studium",
+  "by": "B.Arch thesis · Khulna University",
+  "en": {
+   "t": "High Tech Park, Mymensingh",
+   "loc": "Mymensingh, Bangladesh",
+   "d": "Graduation thesis: a mixed-use incubation and R&D campus, rebuilt as a full Rhino model for the 2026 degree show.",
+   "b": "Bangladesh is building hi-tech parks in every district; the thesis asks what kind of place they should be. Instead of the conventional office-park archetype it proposes a connected campus where ICT business zones, multi-tenant buildings, training centres and employee housing sit on one continuous public plaza level, so working and living are no longer disconnected. The scheme applies the National Building Code to the mixed-use complex and sets LEED prerequisites as design goals. Presented with plans at two levels, an exhibition pathway and a physical model; the model was rebuilt in Rhino for the 2026 degree show.",
+   "client": "Architecture Discipline, Khulna University",
+   "year": "2019 · degree show 2026",
+   "area": "",
+   "scope": "Thesis (Studio X)",
+   "status": "Academic",
+   "role": "Individual graduation thesis: research, master plan, building design, drawings and physical model. Supervisor: Dr. Anirban Mostafa."
+  },
+  "de": {
+   "t": "High Tech Park, Mymensingh",
+   "loc": "Mymensingh, Bangladesch",
+   "d": "Abschlussarbeit: ein gemischt genutzter Campus für Gründerzentren und Forschung, für die Abschlussausstellung 2026 als vollständiges Rhino-Modell neu aufgebaut.",
+   "b": "Bangladesch errichtet in jedem Distrikt Hi-Tech-Parks; die Arbeit fragt, welcher Ort das sein sollte. Statt des üblichen Büropark-Schemas entsteht ein vernetzter Campus, auf dem ICT-Geschäftszonen, Mehrmieterbauten, Schulungszentren und Mitarbeiterwohnungen auf einer durchgehenden öffentlichen Plaza-Ebene liegen, damit Arbeiten und Wohnen nicht länger getrennt sind. Der Entwurf wendet die bangladeschische Bauordnung auf den gemischt genutzten Komplex an und setzt LEED-Voraussetzungen als Entwurfsziele. Dargestellt mit Grundrissen auf zwei Ebenen, einem Ausstellungsweg und einem physischen Modell; das Modell wurde für die Abschlussausstellung 2026 in Rhino neu aufgebaut.",
+   "client": "Architecture Discipline, Khulna University",
+   "year": "2019 · Ausstellung 2026",
+   "area": "",
+   "scope": "Abschlussarbeit (Studio X)",
+   "status": "Studium",
+   "role": "Eigenständige Abschlussarbeit: Recherche, Masterplan, Gebäudeentwurf, Zeichnungen und physisches Modell. Betreuung: Dr. Anirban Mostafa."
+  },
+  "imgs": [
+   {
+    "src": "images/high-tech-park/00.webp",
+    "w": 1600,
+    "h": 887
+   },
+   {
+    "src": "images/high-tech-park/01.webp",
+    "w": 1400,
+    "h": 763
+   },
+   {
+    "src": "images/high-tech-park/02.webp",
+    "w": 1400,
+    "h": 1072
+   },
+   {
+    "src": "images/high-tech-park/03.webp",
+    "w": 1400,
+    "h": 928
+   },
+   {
+    "src": "images/high-tech-park/04.webp",
+    "w": 1400,
+    "h": 784
+   },
+   {
+    "src": "images/high-tech-park/05.webp",
+    "w": 1400,
+    "h": 1237
+   },
+   {
+    "src": "images/high-tech-park/06.webp",
+    "w": 1400,
+    "h": 1226
+   }
+  ]
+ },
+ {
+  "id": "pause-in-motion",
+  "cat": "Academic",
+  "catDe": "Studium",
+  "by": "Studio V · Khulna University",
+  "en": {
+   "t": "Pause in Motion",
+   "loc": "Khulna University (studio)",
+   "d": "A metro station designed as a moment of rest inside movement: plaza and parking level, structural exploration, physical model.",
+   "b": "A studio project that pushes the structural limits of a metro (MRT) station: the platform roof is carried by a field of leaning, blade-like members so that the station reads as a pause inside the flow of the city. The plaza and parking level organises arrival, waiting and transfer around planted courtyards. Developed through CAD plans, a Rhino model and a physical model.",
+   "client": "",
+   "year": "",
+   "area": "",
+   "scope": "Studio V — structural exploration",
+   "status": "Academic",
+   "role": "Individual studio project: concept, plans, Rhino model and physical model."
+  },
+  "de": {
+   "t": "Pause in Motion",
+   "loc": "Khulna University (Studio)",
+   "d": "Eine U-Bahn-Station als Moment der Ruhe inmitten der Bewegung: Plaza- und Parkebene, Tragwerksstudie, physisches Modell.",
+   "b": "Ein Studioentwurf, der die Grenzen des Tragwerks einer Metrostation auslotet: Das Bahnsteigdach ruht auf einem Feld geneigter, lamellenartiger Stützen, sodass die Station als Pause im Fluss der Stadt lesbar wird. Die Plaza- und Parkebene ordnet Ankunft, Warten und Umsteigen um begrünte Höfe. Entwickelt mit CAD-Plänen, einem Rhino-Modell und einem physischen Modell.",
+   "client": "",
+   "year": "",
+   "area": "",
+   "scope": "Studio V – Tragwerksstudie",
+   "status": "Studium",
+   "role": "Eigenständiger Studioentwurf: Konzept, Pläne, Rhino-Modell und physisches Modell."
+  },
+  "imgs": [
+   {
+    "src": "images/pause-in-motion/00.webp",
+    "w": 1525,
+    "h": 1286
+   },
+   {
+    "src": "images/pause-in-motion/01.webp",
+    "w": 1400,
+    "h": 966
+   }
+  ]
+ },
+ {
+  "id": "picc",
+  "cat": "Competition",
+  "catDe": "Wettbewerb",
+  "by": "Competition · Institute of Architects Bangladesh",
+  "en": {
+   "t": "Purbachal International Convention Centre",
+   "loc": "Purbachal, Dhaka",
+   "d": "Open competition entry, shortlisted for exhibition by the IAB in 2024: a stacked convention centre with ballrooms, auditorium and a public gateway plaza.",
+   "b": "The entry stacks the programme vertically — ballrooms, auditorium, dining and seminar floors — over a ground level that stays open as a public gateway and festival plaza towards the lake. Form development, strategies for naturally ventilated lobbies and peripheral service zones are set out in a series of diagrams; the ground-floor plan resolves 77 functional areas from vehicular entry to backstage.",
+   "client": "",
+   "year": "2024",
+   "area": "",
+   "scope": "Convention centre competition",
+   "status": "Shortlisted",
+   "role": "Concept development, plan and presentation drawings."
+  },
+  "de": {
+   "t": "Purbachal International Convention Centre",
+   "loc": "Purbachal, Dhaka",
+   "d": "Offener Wettbewerb, 2024 vom IAB für die Ausstellung in die engere Auswahl genommen: ein gestapeltes Kongresszentrum mit Ballsälen, Auditorium und öffentlicher Eingangsplaza.",
+   "b": "Der Beitrag stapelt das Programm – Ballsäle, Auditorium, Gastronomie- und Seminargeschosse – über einem Erdgeschoss, das als öffentliches Tor und Festplaza zum See hin offen bleibt. Formfindung, natürlich belüftete Foyers und periphere Technikzonen sind in einer Diagrammreihe dargestellt; der Erdgeschossgrundriss löst 77 Funktionsbereiche von der Vorfahrt bis zum Backstage.",
+   "client": "",
+   "year": "2024",
+   "area": "",
+   "scope": "Wettbewerb Kongresszentrum",
+   "status": "Engere Auswahl",
+   "role": "Konzeptentwicklung, Pläne und Präsentationszeichnungen."
+  },
+  "imgs": [
+   {
+    "src": "images/picc/00.webp",
+    "w": 1600,
+    "h": 363
+   },
+   {
+    "src": "images/picc/01.webp",
+    "w": 1400,
+    "h": 1306
+   },
+   {
+    "src": "images/picc/02.webp",
+    "w": 430,
+    "h": 1519
+   },
+   {
+    "src": "images/picc/03.webp",
+    "w": 1091,
+    "h": 959
+   },
+   {
+    "src": "images/picc/04.webp",
+    "w": 1400,
+    "h": 336
+   },
+   {
+    "src": "images/picc/05.webp",
+    "w": 1400,
+    "h": 337
+   }
+  ]
+ },
+ {
+  "id": "ieb-convention-centre",
+  "cat": "Competition",
+  "catDe": "Wettbewerb",
+  "by": "Competition · Institute of Architects Bangladesh",
+  "en": {
+   "t": "IEB Convention Centre",
+   "loc": "Agargaon, Dhaka",
+   "d": "Team competition entry exhibited by the IAB in 2017: a convention hall under a timber-louvred roof, with a tower on the corner of the site.",
+   "b": "A team entry for the Institution of Engineers' convention centre: the hall sits under a deep timber-louvred canopy that filters daylight into the lobby, with a slim office tower marking the corner. Exhibited at the IAB competition project exhibition, November 2017.",
+   "client": "",
+   "year": "2017",
+   "area": "",
+   "scope": "Convention centre competition",
+   "status": "Exhibited",
+   "role": "3D visualization and graphic post-production. Team: Ar. Wahiduzzaman Ratul, Ar. Dilruba Yasmin, Ar. Salek Imam, Bhuiyan Riyadh."
+  },
+  "de": {
+   "t": "IEB Convention Centre",
+   "loc": "Agargaon, Dhaka",
+   "d": "Wettbewerbsbeitrag im Team, 2017 vom IAB ausgestellt: eine Kongresshalle unter einem Holzlamellendach mit Turm an der Grundstücksecke.",
+   "b": "Teambeitrag für das Kongresszentrum der Institution of Engineers: Die Halle liegt unter einem tiefen Holzlamellendach, das Tageslicht ins Foyer filtert; ein schlanker Büroturm markiert die Ecke. Gezeigt in der Wettbewerbsausstellung des IAB im November 2017.",
+   "client": "",
+   "year": "2017",
+   "area": "",
+   "scope": "Wettbewerb Kongresszentrum",
+   "status": "Ausgestellt",
+   "role": "3D-Visualisierung und grafische Nachbearbeitung. Team: Ar. Wahiduzzaman Ratul, Ar. Dilruba Yasmin, Ar. Salek Imam, Bhuiyan Riyadh."
+  },
+  "imgs": [
+   {
+    "src": "images/ieb-convention-centre/00.webp",
+    "w": 1600,
+    "h": 1130
+   },
+   {
+    "src": "images/ieb-convention-centre/01.webp",
+    "w": 1026,
+    "h": 724
+   },
+   {
+    "src": "images/ieb-convention-centre/02.webp",
+    "w": 1026,
+    "h": 468
+   },
+   {
+    "src": "images/ieb-convention-centre/03.webp",
+    "w": 497,
+    "h": 982
+   }
+  ]
+ },
+ {
+  "id": "public-library-competition",
+  "cat": "Competition",
+  "catDe": "Wettbewerb",
+  "by": "Competition entry",
+  "en": {
+   "t": "Public Library, Shahbag",
+   "loc": "Shahbag, Dhaka",
+   "d": "Team competition entry, 2017: a library split into reading, auditorium and archive wings around a shaded outdoor reading ground.",
+   "b": "The library is organised as three distinguished parts — auditorium complex, the library itself and an archive block — joined by semi-outdoor reading space under trees. The auditorium is convertible, so it can host fairs, exhibitions and outdoor lectures; the archive sits in a separate wing with its own climate.",
+   "client": "",
+   "year": "2017",
+   "area": "",
+   "scope": "Library competition",
+   "status": "Competition entry",
+   "role": "3D visualization and graphic post-production. Team: Ar. Wahiduzzaman Ratul, Ar. Kazi Asadullah Emran, Bhuiyan Riyadh."
+  },
+  "de": {
+   "t": "Öffentliche Bibliothek, Shahbag",
+   "loc": "Shahbag, Dhaka",
+   "d": "Wettbewerbsbeitrag im Team, 2017: eine Bibliothek aus Lese-, Auditoriums- und Archivflügel um einen beschatteten Lesehof.",
+   "b": "Die Bibliothek gliedert sich in drei Teile – Auditorium, Bibliothek und Archivblock –, verbunden durch halboffene Leseflächen unter Bäumen. Das Auditorium ist wandelbar und nimmt Messen, Ausstellungen und Vorträge im Freien auf; das Archiv liegt in einem eigenen Flügel mit eigenem Raumklima.",
+   "client": "",
+   "year": "2017",
+   "area": "",
+   "scope": "Wettbewerb Bibliothek",
+   "status": "Wettbewerbsbeitrag",
+   "role": "3D-Visualisierung und grafische Nachbearbeitung. Team: Ar. Wahiduzzaman Ratul, Ar. Kazi Asadullah Emran, Bhuiyan Riyadh."
+  },
+  "imgs": [
+   {
+    "src": "images/public-library-competition/00.webp",
+    "w": 1291,
+    "h": 748
+   },
+   {
+    "src": "images/public-library-competition/01.webp",
+    "w": 1400,
+    "h": 692
+   },
+   {
+    "src": "images/public-library-competition/02.webp",
+    "w": 1400,
+    "h": 336
+   },
+   {
+    "src": "images/public-library-competition/03.webp",
+    "w": 1400,
+    "h": 317
+   }
+  ]
+ },
+ {
+  "id": "affordable-housing-dolpur",
+  "cat": "Competition",
+  "catDe": "Wettbewerb",
+  "by": "Competition · Build Bangladesh",
+  "en": {
+   "t": "Land is More — Affordable Housing, Dolpur",
+   "loc": "Savar, Dhaka",
+   "d": "Team competition entry exhibited in 2019: 500 and 650 sq ft dwelling modules that give every low-income household a courtyard open to the sky.",
+   "b": "Starting from the vernacular courtyard house, the entry asks whether the urban lower-income household can keep the luxury of an open-to-sky court. Two module types (500 and 650 sq ft) stack private rooms and service cores around that void; the master plan arranges the modules so that each family owns a dwelling unit and a share of the planted ground. Exhibited by Build Bangladesh / Impress Group, November 2019.",
+   "client": "",
+   "year": "2019",
+   "area": "",
+   "scope": "Affordable housing competition",
+   "status": "Exhibited",
+   "role": "3D visualization and graphic post-production. Team: Ar. Wahiduzzaman Ratul, Ar. Dilruba Yasmin, Rakib Abbas."
+  },
+  "de": {
+   "t": "Land is More – Bezahlbares Wohnen, Dolpur",
+   "loc": "Savar, Dhaka",
+   "d": "Wettbewerbsbeitrag im Team, 2019 ausgestellt: Wohnmodule mit 46 und 60 m², die jedem Haushalt mit geringem Einkommen einen Hof unter freiem Himmel geben.",
+   "b": "Ausgehend vom traditionellen Hofhaus fragt der Beitrag, ob sich der städtische Haushalt mit geringem Einkommen den Luxus eines offenen Hofs bewahren kann. Zwei Modultypen (46 und 60 m²) stapeln Privaträume und Versorgungskerne um diesen Leerraum; der Masterplan ordnet die Module so, dass jede Familie eine Wohneinheit und einen Anteil am begrünten Grund besitzt. Ausgestellt von Build Bangladesh / Impress Group im November 2019.",
+   "client": "",
+   "year": "2019",
+   "area": "",
+   "scope": "Wettbewerb bezahlbares Wohnen",
+   "status": "Ausgestellt",
+   "role": "3D-Visualisierung und grafische Nachbearbeitung. Team: Ar. Wahiduzzaman Ratul, Ar. Dilruba Yasmin, Rakib Abbas."
+  },
+  "imgs": [
+   {
+    "src": "images/affordable-housing-dolpur/00.webp",
+    "w": 993,
+    "h": 585
+   },
+   {
+    "src": "images/affordable-housing-dolpur/01.webp",
+    "w": 761,
+    "h": 1123
+   },
+   {
+    "src": "images/affordable-housing-dolpur/02.webp",
+    "w": 993,
+    "h": 1052
+   },
+   {
+    "src": "images/affordable-housing-dolpur/03.webp",
+    "w": 1059,
+    "h": 351
+   },
+   {
+    "src": "images/affordable-housing-dolpur/04.webp",
+    "w": 1400,
+    "h": 247
+   }
+  ]
  }
 ];
