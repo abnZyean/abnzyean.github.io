@@ -4,207 +4,6 @@
    (what Xyean personally did — shown first in the gallery panel when set). Top-level: id, cat, catDe, by (credit line), imgs. */
 window.PRACTICE_PROJECTS = [
  {
-  "id": "asset-visualization",
-  "cat": "Visualization",
-  "catDe": "Visualisierung",
-  "imgs": [
-   {
-    "src": "images/asset-visualization/00.webp",
-    "w": 1600,
-    "h": 1600
-   },
-   {
-    "src": "images/asset-visualization/01.webp",
-    "w": 1400,
-    "h": 934
-   },
-   {
-    "src": "images/asset-visualization/02.webp",
-    "w": 1400,
-    "h": 934
-   },
-   {
-    "src": "images/asset-visualization/03.webp",
-    "w": 1400,
-    "h": 934
-   },
-   {
-    "src": "images/asset-visualization/04.webp",
-    "w": 1400,
-    "h": 850
-   },
-   {
-    "src": "images/asset-visualization/05.webp",
-    "w": 1400,
-    "h": 1050
-   },
-   {
-    "src": "images/asset-visualization/06.webp",
-    "w": 1400,
-    "h": 951
-   }
-  ],
-  "en": {
-   "t": "Asset Eskaton Tower Visualisation",
-   "loc": "Dhaka, Bangladesh",
-   "d": "High-end architectural visualization services for iconic urban landmarks.",
-   "b": "A full visualization package for Asset Developments' Eskaton tower, covering approach, entry, lobby and garden-level views in both day and evening conditions. The set was produced to carry the project through marketing and approvals, so lighting and material treatment stay consistent across every frame rather than being tuned shot by shot. Each view is framed from a sightline a visitor would actually have, not an idealised camera position.",
-   "client": "Asset Developments",
-   "year": "",
-   "area": "",
-   "scope": "Architectural Visualization",
-   "status": "In construction",
-   "role": ""
-  },
-  "de": {
-   "t": "Asset Eskaton Tower Visualisation",
-   "loc": "Dhaka, Bangladesch",
-   "d": "Hochwertige Architekturvisualisierung für markante Bauten der Stadt.",
-   "b": "Ein vollständiges Visualisierungspaket für den Eskaton Tower von Asset Developments mit Ansichten von Zufahrt, Eingang, Foyer und Gartenebene, jeweils bei Tag und am Abend. Die Serie begleitet das Projekt durch Vermarktung und Genehmigung; deshalb bleiben Licht und Materialdarstellung in allen Bildern einheitlich, statt für jede Aufnahme einzeln abgestimmt zu werden. Jede Ansicht ist aus einer Blickachse gewählt, die Besucher tatsächlich haben – keine idealisierte Kameraposition.",
-   "client": "Asset Developments",
-   "year": "",
-   "area": "",
-   "scope": "Architekturvisualisierung",
-   "status": "Im Bau",
-   "role": ""
-  },
-  "by": "Spaceverse Ltd."
- },
- {
-  "id": "sare-springfield",
-  "cat": "Visualization",
-  "catDe": "Visualisierung",
-  "imgs": [
-   {
-    "src": "images/sare-springfield/00.webp",
-    "w": 1600,
-    "h": 900
-   },
-   {
-    "src": "images/sare-springfield/01.webp",
-    "w": 1400,
-    "h": 788
-   },
-   {
-    "src": "images/sare-springfield/02.webp",
-    "w": 1400,
-    "h": 788
-   },
-   {
-    "src": "images/sare-springfield/03.webp",
-    "w": 900,
-    "h": 1170
-   },
-   {
-    "src": "images/sare-springfield/04.webp",
-    "w": 900,
-    "h": 1170
-   },
-   {
-    "src": "images/sare-springfield/05.webp",
-    "w": 1400,
-    "h": 788
-   },
-   {
-    "src": "images/sare-springfield/06.webp",
-    "w": 1400,
-    "h": 788
-   }
-  ],
-  "en": {
-   "t": "Sare Springfield Visualisation",
-   "loc": "Dhaka, Bangladesh",
-   "d": "Atmospheric architectural visualization for premium residential rooftops.",
-   "b": "An atmospheric visualization set for Sare Springfield's premium residential offering, concentrated on the amenity spaces that drive purchase decisions — lobby, kitchen, living and rooftop. Evening and low-light frames were prioritised to show how the rooftop reads once the city lights come up. The set functions as a coordinated marketing package, not a series of standalone renders.",
-   "client": "Sare Springfield Properties",
-   "year": "",
-   "area": "",
-   "scope": "Architectural Visualization",
-   "status": "In construction",
-   "role": ""
-  },
-  "de": {
-   "t": "Sare Springfield Visualisation",
-   "loc": "Dhaka, Bangladesch",
-   "d": "Stimmungsvolle Architekturvisualisierung für hochwertige Dachterrassen im Wohnungsbau.",
-   "b": "Eine stimmungsvolle Visualisierungsserie für das hochwertige Wohnprojekt von Sare Springfield, konzentriert auf die Gemeinschaftsflächen, die Kaufentscheidungen beeinflussen – Foyer, Küche, Wohnbereich und Dachterrasse. Abend- und Dämmerungsbilder hatten Vorrang, um zu zeigen, wie die Dachterrasse wirkt, wenn die Lichter der Stadt angehen. Die Serie funktioniert als abgestimmtes Vermarktungspaket, nicht als Sammlung einzelner Renderings.",
-   "client": "Sare Springfield Properties",
-   "year": "",
-   "area": "",
-   "scope": "Architekturvisualisierung",
-   "status": "Im Bau",
-   "role": ""
-  },
-  "by": "Spaceverse Ltd."
- },
- {
-  "id": "silicon-europa",
-  "cat": "Residential",
-  "catDe": "Wohnungsbau",
-  "imgs": [
-   {
-    "src": "images/silicon-europa/00.webp",
-    "w": 1600,
-    "h": 1195
-   },
-   {
-    "src": "images/silicon-europa/01.webp",
-    "w": 1400,
-    "h": 933
-   },
-   {
-    "src": "images/silicon-europa/02.webp",
-    "w": 1400,
-    "h": 1046
-   },
-   {
-    "src": "images/silicon-europa/03.webp",
-    "w": 1400,
-    "h": 934
-   },
-   {
-    "src": "images/silicon-europa/04.webp",
-    "w": 1400,
-    "h": 1875
-   },
-   {
-    "src": "images/silicon-europa/05.webp",
-    "w": 1400,
-    "h": 1046
-   },
-   {
-    "src": "images/silicon-europa/06.webp",
-    "w": 1400,
-    "h": 933
-   }
-  ],
-  "en": {
-   "t": "Silicon Europa",
-   "loc": "Jolshiri, Dhaka",
-   "d": "An ongoing residential development layering a planted frame over deep balconies, with shared amenity lifted to the roof.",
-   "b": "Silicon Europa places 14,600 square feet of apartments on a tight Jolshiri plot by splitting the street elevation into two readings: a brick-and-slab bay of deep cantilevered balconies on one side, and an exposed white frame on the other, its grid filled with recessed terraces and vertical planting. That second skin does the environmental work — the frame throws the balconies into shadow through the middle of the day, and the climbing greenery softens west light before it reaches the glazing. Blade walls at both edges close the composition and give the tower a defined silhouette against its low-rise neighbours. The ground plane is given over to a covered arrival court and parking, lifting all habitable space clear of the road, while the roof carries the building's social floor: a pool set into stepped timber decking, a perforated pergola throwing filtered shade across the seating, deep planted beds, and a mesh-enclosed play court — amenity a plot this size could never afford at grade.",
-   "client": "Silicon Properties Ltd.",
-   "year": "",
-   "area": "1,360 m²",
-   "scope": "Residential Architecture",
-   "status": "In construction",
-   "role": ""
-  },
-  "de": {
-   "t": "Silicon Europa",
-   "loc": "Jolshiri, Dhaka",
-   "d": "Ein laufendes Wohnbauprojekt mit begrüntem Rahmen vor tiefen Balkonen und Gemeinschaftsflächen auf dem Dach.",
-   "b": "Silicon Europa bringt Wohnungen mit ca. 1.356 m² (14.600 sq ft) auf einem knappen Grundstück in Jolshiri unter, indem die Straßenfassade in zwei Teile gegliedert wird: auf der einen Seite ein Feld aus Ziegel und Deckenplatten mit tiefen auskragenden Balkonen, auf der anderen ein freiliegender weißer Rahmen, dessen Raster mit zurückgesetzten Terrassen und vertikalem Grün gefüllt ist. Diese zweite Schicht übernimmt die klimatische Arbeit: Der Rahmen verschattet die Balkone über die Mittagsstunden, und die Kletterpflanzen mildern das Westlicht, bevor es die Verglasung erreicht. Wandscheiben an beiden Enden schließen die Komposition und geben dem Turm eine klare Silhouette zwischen den niedrigen Nachbarbauten. Das Erdgeschoss gehört einem überdachten Ankunftshof und den Stellplätzen, sodass alle Wohnräume über Straßenniveau liegen; das Dach trägt das soziale Geschoss des Hauses: ein Pool in gestuftem Holzdeck, eine perforierte Pergola mit gefiltertem Schatten über den Sitzplätzen, tiefe Pflanzbeete und ein mit Netz umschlossenes Spielfeld – Angebote, die ein Grundstück dieser Größe auf Geländeniveau nie unterbringen könnte.",
-   "client": "Silicon Properties Ltd.",
-   "year": "",
-   "area": "1.360 m²",
-   "scope": "Wohnungsbau",
-   "status": "Im Bau",
-   "role": ""
-  },
-  "by": "Spaceverse Ltd."
- },
- {
   "id": "silicon-heights",
   "cat": "Commercial",
   "catDe": "Gewerbebau",
@@ -268,6 +67,74 @@ window.PRACTICE_PROJECTS = [
    "scope": "Entwurf eines Wohn- und Geschäftshauses",
    "status": "Im Bau",
    "role": "Architektur (Spaceverse): Entwurfskonzept, Detail- und Ausführungsplanung, 3D-Visualisierung, Bauüberwachung. Seit Sep. 2024."
+  },
+  "by": "Spaceverse Ltd.",
+  "lead": "Ar. Moona Ahmed Ismail, Ar. Zyean Abdullah"
+ },
+ {
+  "id": "silicon-europa",
+  "cat": "Residential",
+  "catDe": "Wohnungsbau",
+  "imgs": [
+   {
+    "src": "images/silicon-europa/00.webp",
+    "w": 1600,
+    "h": 1195
+   },
+   {
+    "src": "images/silicon-europa/01.webp",
+    "w": 1400,
+    "h": 933
+   },
+   {
+    "src": "images/silicon-europa/02.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/silicon-europa/03.webp",
+    "w": 1400,
+    "h": 934
+   },
+   {
+    "src": "images/silicon-europa/04.webp",
+    "w": 1400,
+    "h": 1875
+   },
+   {
+    "src": "images/silicon-europa/05.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/silicon-europa/06.webp",
+    "w": 1400,
+    "h": 933
+   }
+  ],
+  "en": {
+   "t": "S.P.L. Europa",
+   "loc": "Jolshiri, Dhaka",
+   "d": "An ongoing residential development layering a planted frame over deep balconies, with shared amenity lifted to the roof.",
+   "b": "S.P.L. Europa places 14,600 square feet of apartments on a tight Jolshiri plot by splitting the street elevation into two readings: a brick-and-slab bay of deep cantilevered balconies on one side, and an exposed white frame on the other, its grid filled with recessed terraces and vertical planting. That second skin does the environmental work — the frame throws the balconies into shadow through the middle of the day, and the climbing greenery softens west light before it reaches the glazing. Blade walls at both edges close the composition and give the tower a defined silhouette against its low-rise neighbours. The ground plane is given over to a covered arrival court and parking, lifting all habitable space clear of the road, while the roof carries the building's social floor: a pool set into stepped timber decking, a perforated pergola throwing filtered shade across the seating, deep planted beds, and a mesh-enclosed play court — amenity a plot this size could never afford at grade.",
+   "client": "Silicon Properties Ltd.",
+   "year": "",
+   "area": "1,360 m²",
+   "scope": "Residential Architecture",
+   "status": "In construction",
+   "role": ""
+  },
+  "de": {
+   "t": "S.P.L. Europa",
+   "loc": "Jolshiri, Dhaka",
+   "d": "Ein laufendes Wohnbauprojekt mit begrüntem Rahmen vor tiefen Balkonen und Gemeinschaftsflächen auf dem Dach.",
+   "b": "S.P.L. Europa bringt Wohnungen mit ca. 1.356 m² (14.600 sq ft) auf einem knappen Grundstück in Jolshiri unter, indem die Straßenfassade in zwei Teile gegliedert wird: auf der einen Seite ein Feld aus Ziegel und Deckenplatten mit tiefen auskragenden Balkonen, auf der anderen ein freiliegender weißer Rahmen, dessen Raster mit zurückgesetzten Terrassen und vertikalem Grün gefüllt ist. Diese zweite Schicht übernimmt die klimatische Arbeit: Der Rahmen verschattet die Balkone über die Mittagsstunden, und die Kletterpflanzen mildern das Westlicht, bevor es die Verglasung erreicht. Wandscheiben an beiden Enden schließen die Komposition und geben dem Turm eine klare Silhouette zwischen den niedrigen Nachbarbauten. Das Erdgeschoss gehört einem überdachten Ankunftshof und den Stellplätzen, sodass alle Wohnräume über Straßenniveau liegen; das Dach trägt das soziale Geschoss des Hauses: ein Pool in gestuftem Holzdeck, eine perforierte Pergola mit gefiltertem Schatten über den Sitzplätzen, tiefe Pflanzbeete und ein mit Netz umschlossenes Spielfeld – Angebote, die ein Grundstück dieser Größe auf Geländeniveau nie unterbringen könnte.",
+   "client": "Silicon Properties Ltd.",
+   "year": "",
+   "area": "1.360 m²",
+   "scope": "Wohnungsbau",
+   "status": "Im Bau",
+   "role": ""
   },
   "by": "Spaceverse Ltd."
  },
@@ -339,9 +206,277 @@ window.PRACTICE_PROJECTS = [
   "by": "Spaceverse Ltd."
  },
  {
-  "id": "gazipur-triplex",
+  "id": "silicon-samtaz",
   "cat": "Residential",
   "catDe": "Wohnungsbau",
+  "by": "Spaceverse Ltd.",
+  "imgs": [
+   {
+    "src": "images/silicon-samtaz/00.webp",
+    "w": 1600,
+    "h": 1195
+   },
+   {
+    "src": "images/silicon-samtaz/01.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/silicon-samtaz/02.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/silicon-samtaz/03.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/silicon-samtaz/04.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/silicon-samtaz/05.webp",
+    "w": 1400,
+    "h": 1046
+   }
+  ],
+  "en": {
+   "t": "S.P.L. Samtaz",
+   "loc": "Jolshiri, Dhaka",
+   "d": "An apartment tower of deep, round-cornered balconies with timber-lined undersides, trailing greenery and a roof garden.",
+   "b": "S.P.L. Samtaz, on a 5-katha plot in Jolshiri, is organised around its balconies: each floor projects as a deep, round-cornered slab in a pale finish, with a timber-lined underside and a continuous strip of light tracing the edge, so the tower reads as a stack of horizontal bands rather than a flat wall. The slabs are carried on slender round columns, and a solid fin runs the full height of the street front at its centre, splitting it into two bays and giving the elevation a clear vertical line. Planters set into the balcony edges let greenery trail down the face and shade the glazing behind the glass balustrades, and the planting gathers again at the top, where a roof garden sits inside a framed crown carrying the SILICON name. At street level the building stands on its columns over a covered, gated entrance and parking court, with a small gatehouse bearing the project's name and planting along the boundary.",
+   "client": "Silicon Properties Ltd.",
+   "year": "",
+   "area": "Plot 330 m² (5 katha)",
+   "scope": "Residential Architecture",
+   "status": "In construction",
+   "role": ""
+  },
+  "de": {
+   "t": "S.P.L. Samtaz",
+   "loc": "Jolshiri, Dhaka",
+   "d": "Ein Mehrfamilienhaus mit tiefen Balkonen mit abgerundeten Ecken, holzverkleideten Untersichten, herabhängendem Grün und einem Dachgarten.",
+   "b": "S.P.L. Samtaz steht in Jolshiri auf einem Grundstück von ca. 334 m² (5 Katha; Katha ist ein in Bangladesch übliches Flächenmaß) und ist um seine Balkone herum entworfen: Jedes Geschoss kragt als tiefe Platte mit abgerundeten Ecken aus – hell beschichtet, mit holzverkleideter Untersicht und einem durchgehenden Lichtband an der Kante –, sodass sich das Haus als Stapel horizontaler Bänder liest statt als flache Wand. Die Platten ruhen auf schlanken Rundstützen, und eine geschlossene Wandscheibe läuft mittig über die gesamte Höhe der Straßenfassade, teilt sie in zwei Felder und gibt ihr eine klare vertikale Linie. Pflanztröge in den Balkonkanten lassen das Grün an der Fassade herabhängen und verschatten die Verglasung hinter den Glasbrüstungen; ganz oben sammelt sich die Bepflanzung erneut in einem Dachgarten, gefasst von einem Rahmen, der den Schriftzug „SILICON“ trägt. Im Erdgeschoss steht das Haus auf seinen Stützen über einem überdachten, mit Toren geschlossenen Eingangs- und Stellplatzbereich, mit einem kleinen Pförtnerhaus, das den Projektnamen trägt, und Bepflanzung entlang der Grundstücksgrenze.",
+   "client": "Silicon Properties Ltd.",
+   "year": "",
+   "area": "Grundstück ca. 334 m² (5 Katha)",
+   "scope": "Wohnungsbau",
+   "status": "Im Bau",
+   "role": ""
+  }
+ },
+ {
+  "id": "silicon-solitude",
+  "cat": "Residential",
+  "catDe": "Wohnungsbau",
+  "by": "Spaceverse Ltd.",
+  "imgs": [
+   {
+    "src": "images/silicon-solitude/00.webp",
+    "w": 1600,
+    "h": 1195
+   },
+   {
+    "src": "images/silicon-solitude/01.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/silicon-solitude/02.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/silicon-solitude/03.webp",
+    "w": 1400,
+    "h": 1046
+   }
+  ],
+  "en": {
+   "t": "S.P.L. Solitude",
+   "loc": "Jolshiri, Dhaka",
+   "d": "An apartment tower of staggered, round-edged balconies under a copper-coloured roof crown, with greenery spilling from the balcony edges.",
+   "b": "On a 5-katha plot in Jolshiri, S.P.L. Solitude builds its street front from balconies that change position from floor to floor: on each level the deep, round-edged slabs are offset to the left or right of the ones below, so the elevation climbs in a loose rhythm instead of repeating a single bay. Every slab has a timber-lined underside and a strip of light along its edge, which makes the balconies the building's defining image after dark, while glass balustrades and planters with trailing greenery keep each floor open to the view. The tower is capped by a copper-coloured crown — a deep band with a timber underside wrapping a glass-railed roof terrace — that carries the SILICON name and gives the building a distinct top among its neighbours. The side elevation is kept deliberately quiet, a pale wall with narrow vertical openings, and at street level the tower stands on columns over an open, covered ground floor, its entrance marked by a dark-clad wall bearing the project's name.",
+   "client": "Silicon Properties Ltd.",
+   "year": "",
+   "area": "Plot 330 m² (5 katha)",
+   "scope": "Residential Architecture",
+   "status": "In construction",
+   "role": ""
+  },
+  "de": {
+   "t": "S.P.L. Solitude",
+   "loc": "Jolshiri, Dhaka",
+   "d": "Ein Mehrfamilienhaus mit geschossweise versetzten, abgerundeten Balkonen unter einem kupferfarbenen Dachabschluss, mit herabhängendem Grün an den Balkonkanten.",
+   "b": "Bei S.P.L. Solitude, auf einem Grundstück von ca. 334 m² (5 Katha; Katha ist ein in Bangladesch übliches Flächenmaß) in Jolshiri, bilden Balkone die Straßenfassade, die von Geschoss zu Geschoss ihre Lage wechseln: Auf jeder Ebene sind die tiefen, abgerundeten Platten gegenüber dem Geschoss darunter nach links oder rechts versetzt, sodass die Fassade in einem lockeren Rhythmus aufsteigt, statt ein einziges Feld zu wiederholen. Jede Platte hat eine holzverkleidete Untersicht und ein Lichtband an der Kante, wodurch die Balkone nach Einbruch der Dunkelheit zum prägenden Bild des Hauses werden; Glasbrüstungen und Pflanztröge mit herabhängendem Grün halten die Geschosse zur Aussicht hin offen. Den Abschluss bildet ein kupferfarbener Kranz – ein tiefes Band mit holzverkleideter Untersicht, das eine Dachterrasse mit Glasbrüstung umfasst –, der den Schriftzug „SILICON“ trägt und dem Turm zwischen den Nachbarbauten eine eigene Silhouette gibt. Die Seitenfassade bleibt bewusst ruhig, eine helle Wand mit schmalen, hohen Öffnungen; im Erdgeschoss steht das Haus auf Stützen über einem offenen, überdachten Bereich, dessen Zugang eine dunkel verkleidete Wand mit dem Projektnamen markiert.",
+   "client": "Silicon Properties Ltd.",
+   "year": "",
+   "area": "Grundstück ca. 334 m² (5 Katha)",
+   "scope": "Wohnungsbau",
+   "status": "Im Bau",
+   "role": ""
+  }
+ },
+ {
+  "id": "silicon-yara",
+  "cat": "Residential",
+  "catDe": "Wohnungsbau",
+  "by": "Spaceverse Ltd.",
+  "imgs": [
+   {
+    "src": "images/silicon-yara/00.webp",
+    "w": 1600,
+    "h": 1195
+   },
+   {
+    "src": "images/silicon-yara/01.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/silicon-yara/02.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/silicon-yara/03.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/silicon-yara/04.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/silicon-yara/05.webp",
+    "w": 1400,
+    "h": 1046
+   }
+  ],
+  "en": {
+   "t": "S.P.L. Yara",
+   "loc": "Jolshiri, Dhaka",
+   "d": "An apartment tower of wave-edged, planted balconies with timber-lined undersides, under a sculpted crown and a roof garden.",
+   "b": "S.P.L. Yara, on a 5-katha plot in Jolshiri, gives each floor one continuous balcony edge that steps forward and back across the street front, so the slabs read as a series of soft waves rather than a grid of boxes. The rims are planted along their length with grasses and trailing greenery, the undersides are lined in timber and traced by a strip of light, and the glass balustrades sit behind the planting, so from the street the building appears layered in green. The tower is capped by a sculpted crown carrying the SILICON name, cut at an angle to open a glass-railed terrace, and the roof is laid out as a garden: timber decking and stone paving, raised planting beds and a pergola for shade. At street level the building opens through a glazed lobby between planted columns, behind rust-coloured gates.",
+   "client": "Silicon Properties Ltd.",
+   "year": "",
+   "area": "Plot 330 m² (5 katha)",
+   "scope": "Residential Architecture",
+   "status": "In construction",
+   "role": ""
+  },
+  "de": {
+   "t": "S.P.L. Yara",
+   "loc": "Jolshiri, Dhaka",
+   "d": "Ein Mehrfamilienhaus mit wellenförmig geführten, bepflanzten Balkonen, holzverkleideten Untersichten, einem plastisch geformten Abschluss und einem Dachgarten.",
+   "b": "Bei S.P.L. Yara, auf einem Grundstück von ca. 334 m² (5 Katha; Katha ist ein in Bangladesch übliches Flächenmaß) in Jolshiri, erhält jedes Geschoss eine durchgehende Balkonkante, die über die Straßenfassade vor- und zurückspringt; so lesen sich die Platten als Folge weicher Wellen statt als Raster aus Kästen. Die Kanten sind auf ganzer Länge mit Gräsern und herabhängendem Grün bepflanzt, die Untersichten holzverkleidet und von einem Lichtband begleitet, und die Glasbrüstungen liegen hinter der Bepflanzung – von der Straße aus wirkt das Haus wie in Grün geschichtet. Den Abschluss bildet ein plastisch geformter Kranz mit dem Schriftzug „SILICON“, schräg eingeschnitten für eine Terrasse mit Glasbrüstung; das Dach selbst ist als Garten angelegt, mit Holzdeck und Steinbelag, erhöhten Pflanzbeeten und einer Pergola als Schattenspender. Im Erdgeschoss öffnet sich das Haus zwischen begrünten Stützen mit einem verglasten Foyer hinter rostfarbenen Toren.",
+   "client": "Silicon Properties Ltd.",
+   "year": "",
+   "area": "Grundstück ca. 334 m² (5 Katha)",
+   "scope": "Wohnungsbau",
+   "status": "Im Bau",
+   "role": ""
+  }
+ },
+ {
+  "id": "bosonto-bauri-principals-duplex",
+  "cat": "Residential",
+  "catDe": "Wohnhäuser",
+  "by": "Spaceverse Ltd.",
+  "imgs": [
+   {
+    "src": "images/bosonto-bauri-principals-duplex/00.webp",
+    "w": 1600,
+    "h": 1195
+   },
+   {
+    "src": "images/bosonto-bauri-principals-duplex/01.webp",
+    "w": 1400,
+    "h": 941
+   },
+   {
+    "src": "images/bosonto-bauri-principals-duplex/02.webp",
+    "w": 1400,
+    "h": 1045
+   },
+   {
+    "src": "images/bosonto-bauri-principals-duplex/03.webp",
+    "w": 1400,
+    "h": 1045
+   },
+   {
+    "src": "images/bosonto-bauri-principals-duplex/04.webp",
+    "w": 1400,
+    "h": 1045
+   },
+   {
+    "src": "images/bosonto-bauri-principals-duplex/05.webp",
+    "w": 1400,
+    "h": 1045
+   },
+   {
+    "src": "images/bosonto-bauri-principals-duplex/06.webp",
+    "w": 1400,
+    "h": 1045
+   },
+   {
+    "src": "images/bosonto-bauri-principals-duplex/07.webp",
+    "w": 1400,
+    "h": 1045
+   },
+   {
+    "src": "images/bosonto-bauri-principals-duplex/08.webp",
+    "w": 1400,
+    "h": 1045
+   },
+   {
+    "src": "images/bosonto-bauri-principals-duplex/09.webp",
+    "w": 1400,
+    "h": 1875
+   },
+   {
+    "src": "images/bosonto-bauri-principals-duplex/10.webp",
+    "w": 1400,
+    "h": 1875
+   },
+   {
+    "src": "images/bosonto-bauri-principals-duplex/11.webp",
+    "w": 1400,
+    "h": 1875
+   }
+  ],
+  "en": {
+   "t": "Bosonto Bauri — Principal’s Duplex",
+   "loc": "Rajendrapur, Gazipur",
+   "d": "A duplex residence in Rajendrapur, Gazipur, with exposed brick, planted terraces and a double-height living space opening to the garden.",
+   "b": "Bosonto Bauri is a principal’s duplex residence in Rajendrapur, Gazipur. The design combines exposed brick walls and concrete frames with large glazed openings, bringing the garden into view from the living spaces. A double-height living room and open stair connect the two residential levels, while brick screens, planted edges and shaded terraces give the house a layered relationship with its surroundings. The gallery brings together exterior and interior visualisations with the ground-floor, first-floor and roof plans.",
+   "client": "Rajendrapur Cantonment",
+   "year": "",
+   "area": "520 m²",
+   "scope": "Residential Architecture",
+   "status": "Design complete, construction pending",
+   "role": ""
+  },
+  "de": {
+   "t": "Bosonto Bauri — Principal’s Duplex",
+   "loc": "Rajendrapur, Gazipur",
+   "d": "Ein zweigeschossiges Wohnhaus in Rajendrapur, Gazipur, mit Sichtziegeln, begrünten Terrassen und einem zum Garten geöffneten Wohnraum über zwei Geschosse.",
+   "b": "Bosonto Bauri ist das zweigeschossige Wohnhaus eines Schulleiters in Rajendrapur, Gazipur. Sichtziegelwände und Betonrahmen verbinden sich mit großen Glasflächen, die aus den Wohnräumen den Blick in den Garten öffnen. Ein zweigeschossiger Wohnraum und eine offene Treppe verbinden die beiden Wohnebenen. Ziegelgitter, bepflanzte Ränder und schattige Terrassen vermitteln zwischen Haus und Umgebung. Die Galerie zeigt Außen- und Innenraumvisualisierungen sowie die Grundrisse von Erdgeschoss, Obergeschoss und Dach.",
+   "client": "Rajendrapur Cantonment",
+   "year": "",
+   "area": "520 m²",
+   "scope": "Wohnhausarchitektur",
+   "status": "Planung abgeschlossen, Bau steht aus",
+   "role": ""
+  }
+ },
+ {
+  "id": "gazipur-triplex",
+  "cat": "Residential",
+  "catDe": "Wohnhäuser",
   "imgs": [
    {
     "src": "images/gazipur-triplex/00.webp",
@@ -380,325 +515,97 @@ window.PRACTICE_PROJECTS = [
    }
   ],
   "en": {
-   "t": "Residence Triplex",
+   "t": "Chayabithi Triplex",
    "loc": "Gazipur",
    "d": "A modern triplex villa exploring geometric volumes and private green terraces.",
    "b": "A private villa of 6,500 square feet, organised as three interlocking volumes that step back to open a private green terrace at each level. The exterior reads as solid geometry from the road and loosens toward the garden side, screening the family's living spaces from the street without closing them off from light. Landscape and architecture were designed together, so the planting reinforces each shift in the massing.",
-   "client": "Private Villa Owner",
-   "year": "",
+   "client": "Dostogir Family",
+   "year": "2025 –",
    "area": "600 m²",
    "scope": "Architecture & Landscaping",
    "status": "In construction",
-   "role": "Lead architect (Spaceverse): design concept, detail design, site supervision."
+   "role": "Architect (Spaceverse): design concept, detail design, site supervision. Feb 2025 – ongoing."
   },
   "de": {
-   "t": "Residence Triplex",
+   "t": "Chayabithi Triplex",
    "loc": "Gazipur",
    "d": "Eine moderne Triplex-Villa – ein dreigeschossiges Einfamilienhaus mit geometrischen Baukörpern und privaten grünen Terrassen.",
    "b": "Eine private Villa mit ca. 604 m² (6.500 sq ft), gegliedert in drei ineinandergreifende Baukörper, die zurückspringen und auf jeder Ebene eine private grüne Terrasse freigeben. Zur Straße wirkt das Haus als geschlossene Geometrie und öffnet sich zum Garten hin; so sind die Wohnräume der Familie vor der Straße geschützt, ohne vom Licht abgeschnitten zu sein. Freiraum und Architektur wurden gemeinsam entworfen, sodass die Bepflanzung jeden Versatz der Baukörper unterstreicht.",
-   "client": "Privater Bauherr",
-   "year": "",
+   "client": "Dostogir Family",
+   "year": "seit 2025",
    "area": "600 m²",
    "scope": "Architektur und Freiraumgestaltung",
    "status": "Im Bau",
-   "role": "Projektleitung (Spaceverse): Entwurfskonzept, Detailplanung, Bauüberwachung."
+   "role": "Architektur (Spaceverse): Entwurfskonzept, Detailplanung, Bauüberwachung. Seit Feb. 2025."
   },
   "by": "Spaceverse Ltd."
  },
  {
-  "id": "ma-o-sishu-hospital",
-  "cat": "Healthcare",
-  "catDe": "Gesundheitsbauten",
+  "id": "dr-abdul-khaleque-residence",
+  "cat": "Residential",
+  "catDe": "Wohnhäuser",
+  "by": "Spaceverse Ltd.",
   "imgs": [
    {
-    "src": "images/ma-o-sishu-hospital/00.webp",
+    "src": "images/dr-abdul-khaleque-residence/00.webp",
     "w": 1600,
-    "h": 1195
+    "h": 1200
    },
    {
-    "src": "images/ma-o-sishu-hospital/01.webp",
+    "src": "images/dr-abdul-khaleque-residence/01.webp",
     "w": 1400,
-    "h": 781
+    "h": 1197
    },
    {
-    "src": "images/ma-o-sishu-hospital/02.webp",
+    "src": "images/dr-abdul-khaleque-residence/02.webp",
     "w": 1400,
-    "h": 1400
+    "h": 1231
    },
    {
-    "src": "images/ma-o-sishu-hospital/03.webp",
+    "src": "images/dr-abdul-khaleque-residence/03.webp",
     "w": 1400,
-    "h": 1400
+    "h": 1050
    },
    {
-    "src": "images/ma-o-sishu-hospital/04.webp",
+    "src": "images/dr-abdul-khaleque-residence/04.webp",
     "w": 1400,
-    "h": 1045
+    "h": 1211
    },
    {
-    "src": "images/ma-o-sishu-hospital/05.webp",
+    "src": "images/dr-abdul-khaleque-residence/05.webp",
     "w": 1400,
-    "h": 1045
+    "h": 1050
    },
    {
-    "src": "images/ma-o-sishu-hospital/06.webp",
-    "w": 1400,
-    "h": 1045
+    "src": "images/dr-abdul-khaleque-residence/06.webp",
+    "w": 1186,
+    "h": 1599
    }
   ],
   "en": {
-   "t": "MA O Sishu Hospital",
-   "loc": "Uttara, Dhaka",
-   "d": "A nine-storied specialised gynaecology hospital serving as a social landmark.",
-   "b": "A nine-storied specialised gynaecology hospital across 45,000 square feet, planned so public, patient and clinical circulation never collide. The entrance sequence and waiting areas were given daylight and outward views, which carries more weight in a maternity setting than in general healthcare. Solid-to-void rhythm and shading depth keep ward-facing rooms comfortable while giving the building civic presence on its Uttara street.",
-   "client": "MA O Sishu Hospital Trust",
-   "year": "2023 –",
-   "area": "4,180 m²",
-   "scope": "Healthcare Architecture & Planning",
-   "status": "In construction",
-   "role": "Architect on behalf of Spaceverse, in joint venture with MAIN Arch.: project management, construction detail drawings, assisting the project lead architect, site supervision, 3D visualization."
-  },
-  "de": {
-   "t": "MA O Sishu Hospital",
-   "loc": "Uttara, Dhaka",
-   "d": "Eine neungeschossige Frauenklinik (Mutter-Kind-Klinik), die als sozialer Orientierungspunkt dient.",
-   "b": "Eine neungeschossige Frauenklinik (EG + 8 OG) mit ca. 4.180 m² (45.000 sq ft), so geplant, dass sich die Wege von Öffentlichkeit, Patientinnen und klinischem Betrieb nie kreuzen. Eingangsbereich und Wartezonen erhalten Tageslicht und Ausblick – in der Geburtshilfe wiegt das schwerer als im allgemeinen Krankenhausbau. Der Rhythmus von geschlossenen und offenen Flächen und die Tiefe der Verschattung halten die Patientenzimmer angenehm und geben dem Gebäude an seiner Straße in Uttara eine öffentliche Präsenz.",
-   "client": "MA O Sishu Hospital Trust",
-   "year": "seit 2023",
-   "area": "4.180 m²",
-   "scope": "Gesundheitsbau und Planung",
-   "status": "Im Bau",
-   "role": "Architektur für Spaceverse, in Arbeitsgemeinschaft mit MAIN Arch.: Projektsteuerung, Ausführungsdetails, Unterstützung der Projektleitung, Bauüberwachung, 3D-Visualisierung."
-  },
-  "by": "Spaceverse Ltd. · JV with MAIN Arch."
- },
- {
-  "id": "ma-matin-library",
-  "cat": "Public",
-  "catDe": "Öffentliche Bauten",
-  "imgs": [
-   {
-    "src": "images/ma-matin-library/00.webp",
-    "w": 1600,
-    "h": 900
-   },
-   {
-    "src": "images/ma-matin-library/01.webp",
-    "w": 1400,
-    "h": 788
-   },
-   {
-    "src": "images/ma-matin-library/02.webp",
-    "w": 1400,
-    "h": 788
-   },
-   {
-    "src": "images/ma-matin-library/03.webp",
-    "w": 900,
-    "h": 1600
-   }
-  ],
-  "en": {
-   "t": "M.A. Matin Public Library",
+   "t": "Dr. Abdul Khaleque Residence",
    "loc": "Mymensingh, Bangladesh",
-   "d": "Designed with a philosophy of transparency and accessibility. Expansive glass facades create a visual dialogue with the lake.",
-   "b": "A 12,500 square foot municipal library organised around transparency, with expansive glazing placing the reading floors in direct visual dialogue with the adjacent lake. Openness is calibrated rather than absolute: shading depth and orientation protect books and readers from direct sun while keeping the water in view. The building is meant to read as an invitation from the street, lowering the threshold for first-time users.",
-   "client": "Mymensingh City Corporation",
-   "year": "2023 –",
-   "area": "1,160 m²",
-   "scope": "Public Institutional Library Architecture",
+   "d": "A private residence in exposed red brick, with perforated brick screens and projecting brick detailing.",
+   "b": "A private residence in Mymensingh built in exposed red brick, with the bond pattern itself carrying the design. Bricks are projected and stepped to form deep, shadow-casting screens and perforated panels that filter daylight and let air through, while a brick-balustraded terrace sits at the upper level. The material is left to read as itself rather than being plastered over.",
+   "client": "Dr. Abdul Khaleque",
+   "year": "",
+   "area": "",
+   "scope": "Residential Architecture",
    "status": "In construction",
-   "role": "Project lead (Spaceverse): project management, detail design and working drawings, landscape detail design, 3D visualization, site supervision."
+   "role": ""
   },
   "de": {
-   "t": "M.A. Matin Public Library",
+   "t": "Dr. Abdul Khaleque Residence",
    "loc": "Mymensingh, Bangladesch",
-   "d": "Entworfen nach dem Leitgedanken von Transparenz und Zugänglichkeit. Großzügige Glasfassaden treten in einen sichtbaren Dialog mit dem See.",
-   "b": "Eine Stadtbibliothek mit ca. 1.161 m² (12.500 sq ft), organisiert um das Thema Transparenz: Großzügige Verglasungen setzen die Lesegeschosse in direkten Sichtbezug zum angrenzenden See. Die Offenheit ist dosiert, nicht absolut – Verschattungstiefe und Ausrichtung schützen Bücher und Lesende vor direkter Sonne, während das Wasser im Blick bleibt. Von der Straße aus soll das Gebäude wie eine Einladung wirken und so die Schwelle für Erstbesucher senken.",
-   "client": "Mymensingh City Corporation (Stadtverwaltung)",
-   "year": "seit 2023",
-   "area": "1.160 m²",
-   "scope": "Öffentlicher Bibliotheksbau",
-   "status": "Im Bau",
-   "role": "Projektleitung (Spaceverse): Projektsteuerung, Detail- und Ausführungsplanung, Freiraum-Detailplanung, 3D-Visualisierung, Bauüberwachung."
-  },
-  "by": "Spaceverse Ltd."
- },
- {
-  "id": "divisional-training-centre",
-  "cat": "Public",
-  "catDe": "Öffentliche Bauten",
-  "imgs": [
-   {
-    "src": "images/divisional-training-centre/00.webp",
-    "w": 1600,
-    "h": 993
-   },
-   {
-    "src": "images/divisional-training-centre/01.webp",
-    "w": 1400,
-    "h": 850
-   },
-   {
-    "src": "images/divisional-training-centre/02.webp",
-    "w": 1400,
-    "h": 850
-   },
-   {
-    "src": "images/divisional-training-centre/03.webp",
-    "w": 1400,
-    "h": 788
-   },
-   {
-    "src": "images/divisional-training-centre/04.webp",
-    "w": 1400,
-    "h": 850
-   },
-   {
-    "src": "images/divisional-training-centre/05.webp",
-    "w": 1400,
-    "h": 868
-   }
-  ],
-  "en": {
-   "t": "Divisional Training Centre",
-   "loc": "Cox’s Bazar",
-   "d": "A monumental training facility merging institutional scale with rhythmic facade elements inspired by local geography.",
-   "b": "A 35,000 square foot public training facility for LGED, where institutional scale had to stay approachable for the people cycling through it. A deep, rhythmic screen wraps the elevations to cut direct sun and drive cross-ventilation through the teaching and residential wings, lowering cooling load in a hot, humid coastal setting. The annex and landscape were planned as one gesture, giving the campus shaded outdoor circulation between blocks.",
-   "client": "Local Government Engineering Department (LGED)",
-   "year": "2024 – 2025",
-   "area": "3,250 m²",
-   "scope": "Architecture, Exterior & Landscape Design",
-   "status": "In construction",
-   "role": "Architect on behalf of Nippon Koei Bangladesh Ltd. (design supervision consultant to LGED): assisting the project lead architect, site supervision, detail design. Feb 2024 – Feb 2025."
-  },
-  "de": {
-   "t": "Divisional Training Centre",
-   "loc": "Cox’s Bazar",
-   "d": "Ein monumentales Schulungszentrum, das institutionellen Maßstab mit einer rhythmischen, von der Landschaft der Region inspirierten Fassade verbindet.",
-   "b": "Ein öffentliches Schulungszentrum mit ca. 3.250 m² (35.000 sq ft) für das LGED (Local Government Engineering Department, die staatliche Behörde für kommunale Infrastruktur) – trotz institutioneller Größe sollte es für die wechselnden Kursteilnehmenden zugänglich bleiben. Eine tiefe, rhythmisch durchbrochene Wand (Jali) umhüllt die Fassaden, hält direkte Sonne ab und treibt die Querlüftung durch Lehr- und Wohnflügel, was die Kühllast im heißen, feuchten Küstenklima senkt. Anbau und Freiraum wurden als eine Geste geplant und geben dem Campus verschattete Wege im Freien zwischen den Gebäuden.",
-   "client": "Local Government Engineering Department (LGED)",
-   "year": "2024 – 2025",
-   "area": "3.250 m²",
-   "scope": "Architektur, Fassade und Freiraumgestaltung",
-   "status": "Im Bau",
-   "role": "Architektur für Nippon Koei Bangladesh Ltd. (Planungs- und Bauüberwachungsberatung für LGED): Unterstützung der Projektleitung, Bauüberwachung, Detailplanung. Feb. 2024 – Feb. 2025."
-  },
-  "by": "Nippon Koei Bangladesh Ltd. for LGED"
- },
- {
-  "id": "gazipur-mosque",
-  "cat": "Religious",
-  "catDe": "Sakralbauten",
-  "imgs": [
-   {
-    "src": "images/gazipur-mosque/00.webp",
-    "w": 1440,
-    "h": 959
-   },
-   {
-    "src": "images/gazipur-mosque/01.webp",
-    "w": 1400,
-    "h": 932
-   },
-   {
-    "src": "images/gazipur-mosque/02.webp",
-    "w": 1260,
-    "h": 840
-   },
-   {
-    "src": "images/gazipur-mosque/03.webp",
-    "w": 1400,
-    "h": 932
-   },
-   {
-    "src": "images/gazipur-mosque/04.webp",
-    "w": 1400,
-    "h": 932
-   },
-   {
-    "src": "images/gazipur-mosque/05.webp",
-    "w": 1400,
-    "h": 932
-   },
-   {
-    "src": "images/gazipur-mosque/06.webp",
-    "w": 1400,
-    "h": 932
-   }
-  ],
-  "en": {
-   "t": "Markazus Sunan Mosque-Madrasha Complex, Gazipur",
-   "loc": "Gazipur, Bangladesh",
-   "d": "Architectural intervention focused on natural ventilation and rhythmic light patterns in a religious setting.",
-   "b": "A 9,500 square foot mosque and madrasha complex where prayer and teaching share one site without competing for it. Openings and courtyard placement were resolved for natural ventilation first, so the halls stay usable through Gazipur's hot season with minimal mechanical support. Rhythmic apertures throw shifting light patterns across the interior through the day, giving a plain material palette its depth.",
-   "client": "Markazus Sunan Committee",
+   "d": "Ein privates Wohnhaus aus Sichtmauerwerk in rotem Backstein mit durchbrochenen Ziegelschirmen und vorkragenden Ziegeldetails.",
+   "b": "Ein privates Wohnhaus in Mymensingh aus unverputztem rotem Backstein, bei dem der Mauerverband selbst den Entwurf trägt. Vorkragende und gestaffelte Steine bilden tiefe, schattenwerfende Schirme und durchbrochene Felder, die das Tageslicht filtern und Luft durchlassen; im Obergeschoss liegt eine Terrasse mit gemauerter Brüstung. Das Material bleibt sichtbar, statt überputzt zu werden.",
+   "client": "Dr. Abdul Khaleque",
    "year": "",
-   "area": "880 m²",
-   "scope": "Religious Architecture",
-   "status": "In construction",
-   "role": ""
-  },
-  "de": {
-   "t": "Markazus Sunan Mosque-Madrasha Complex, Gazipur",
-   "loc": "Gazipur, Bangladesch",
-   "d": "Ein architektonischer Eingriff mit Fokus auf natürliche Belüftung und rhythmische Lichtmuster in einem religiösen Umfeld.",
-   "b": "Ein Moschee- und Madrasa-Komplex (Madrasa: islamische Lehranstalt) mit ca. 883 m² (9.500 sq ft), in dem Gebet und Unterricht ein Grundstück teilen, ohne miteinander zu konkurrieren. Öffnungen und Innenhof wurden zuerst auf natürliche Belüftung hin angeordnet; so bleiben die Säle auch in Gazipurs heißer Jahreszeit mit minimaler Klimatisierung nutzbar. Rhythmische Öffnungen werfen über den Tag wandernde Lichtmuster in den Innenraum und geben einer schlichten Materialpalette Tiefe.",
-   "client": "Markazus Sunan Committee",
-   "year": "",
-   "area": "880 m²",
-   "scope": "Sakralbau",
+   "area": "",
+   "scope": "Wohnungsbau",
    "status": "Im Bau",
    "role": ""
-  },
-  "by": "Spaceverse Ltd."
- },
- {
-  "id": "dapunia-bazar-mosque",
-  "cat": "Religious",
-  "catDe": "Sakralbauten",
-  "imgs": [
-   {
-    "src": "images/dapunia-bazar-mosque/00.webp",
-    "w": 1600,
-    "h": 893
-   },
-   {
-    "src": "images/dapunia-bazar-mosque/01.webp",
-    "w": 1400,
-    "h": 980
-   },
-   {
-    "src": "images/dapunia-bazar-mosque/02.webp",
-    "w": 1400,
-    "h": 781
-   }
-  ],
-  "en": {
-   "t": "Dapunia Bazar Mosque",
-   "loc": "Mymensingh, Bangladesh",
-   "d": "A spiritual space balancing traditional brickwork with modern structural expression.",
-   "b": "An 8,000 square foot mosque for the Dapunia Bazar community, built in brick detailed to sit comfortably alongside the surrounding bazaar rather than stand apart from it. Perforated screens filter harsh daylight into the prayer hall and let hot air escape at high level, keeping the space usable through the day without mechanical cooling. The structural expression is deliberately plain — the ornament is in the bond pattern and the light it throws.",
-   "client": "Dapunia Bazar Mosque Committee",
-   "year": "",
-   "area": "740 m²",
-   "scope": "Religious Architecture & Interior",
-   "status": "In construction",
-   "role": ""
-  },
-  "de": {
-   "t": "Dapunia Bazar Mosque",
-   "loc": "Mymensingh, Bangladesch",
-   "d": "Ein spiritueller Ort im Gleichgewicht zwischen traditionellem Mauerwerk und moderner Tragstruktur.",
-   "b": "Eine Moschee mit ca. 743 m² (8.000 sq ft) für die Gemeinde von Dapunia Bazar, in Ziegel gebaut und so detailliert, dass sie sich in den umgebenden Basar einfügt, statt sich abzuheben. Durchbrochene Ziegelwände (Jali) filtern das grelle Tageslicht in den Gebetssaal und lassen warme Luft oben entweichen; so bleibt der Raum den ganzen Tag ohne Klimatisierung nutzbar. Die Konstruktion ist bewusst schlicht gehalten – das Ornament liegt im Mauerwerksverband und im Licht, das er wirft.",
-   "client": "Dapunia Bazar Mosque Committee",
-   "year": "",
-   "area": "740 m²",
-   "scope": "Sakralbau und Innenarchitektur",
-   "status": "Im Bau",
-   "role": ""
-  },
-  "by": "Spaceverse Ltd."
+  }
  },
  {
   "id": "cmtd-commandant-office",
@@ -964,6 +871,517 @@ window.PRACTICE_PROJECTS = [
    "area": "220 m²",
    "scope": "Innenarchitektur",
    "status": "Im Bau",
+   "role": ""
+  },
+  "by": "Spaceverse Ltd."
+ },
+ {
+  "id": "yashfeen-hospital",
+  "cat": "Interior",
+  "catDe": "Innenarchitektur",
+  "by": "Spaceverse Ltd.",
+  "imgs": [
+   {
+    "src": "images/yashfeen-hospital/00.webp",
+    "w": 1600,
+    "h": 1195
+   },
+   {
+    "src": "images/yashfeen-hospital/01.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/yashfeen-hospital/02.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/yashfeen-hospital/03.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/yashfeen-hospital/04.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/yashfeen-hospital/05.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/yashfeen-hospital/06.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/yashfeen-hospital/07.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/yashfeen-hospital/08.webp",
+    "w": 1400,
+    "h": 1046
+   },
+   {
+    "src": "images/yashfeen-hospital/09.webp",
+    "w": 1400,
+    "h": 1046
+   }
+  ],
+  "en": {
+   "t": "Yashfeen Hospital",
+   "loc": "Shewrapara, Dhaka",
+   "d": "A hospital interior in warm timber, textured plaster and a terracotta-coloured ceiling, with planting brought indoors along the corridors and windows.",
+   "b": "An interior for Yashfeen Hospital, beside Shewrapara Metro Station, that sets out to make a clinical building feel calm and familiar, using one consistent palette throughout: timber wall panelling, pale textured plaster, timber-look floors and a terracotta-coloured ceiling, with cable trays and track lighting left exposed beneath it. Arrival is built around the hospital's own identity — a reception counter under a timber-clad ceiling canopy hung with wire-mesh pendants, the Yashfeen mark backlit on a stone-effect wall behind it, an information desk nearby, and a planted stone wall carrying the same mark where the stair arrives. The public routes double as waiting space: timber-lined corridors with a curved nurse station, rows of seating in front of the pathology sample collection, signed separately for men and women, and deep planters with a built-in seat along the windows, where patients and families can sit among greenery. In the patient cabin a timber wall behind the bed frames an arched niche of patterned tile, with a curtain track hung from the ceiling around the bed, and a doctor's chamber pairs a timber desk and shelving with an examination couch and a carved calligraphy panel, so even the most clinical rooms keep the warmth of the public areas.",
+   "client": "",
+   "year": "",
+   "area": "",
+   "scope": "Hospital Interior",
+   "status": "In construction",
+   "role": ""
+  },
+  "de": {
+   "t": "Yashfeen Hospital",
+   "loc": "Shewrapara, Dhaka",
+   "d": "Innenarchitektur für ein Krankenhaus in warmem Holz und hellem Strukturputz unter einer terrakottafarbenen Decke, mit Pflanzen in den Fluren und an den Fenstern.",
+   "b": "Die Innenarchitektur für das Yashfeen Hospital direkt an der Metrostation Shewrapara soll einem Krankenhaus die klinische Strenge nehmen und setzt dafür im ganzen Haus auf eine einheitliche Palette: Wandverkleidungen in Holz, hellen Strukturputz, Böden in Holzoptik und eine terrakottafarbene Decke, unter der Kabeltrassen und Stromschienenstrahler sichtbar bleiben. Der Ankunftsbereich ist um die Identität des Hauses aufgebaut – eine Empfangstheke unter einem holzverkleideten Deckensegel mit Pendelleuchten aus Drahtgeflecht, dahinter das hinterleuchtete Yashfeen-Zeichen auf einer Wand in Steinoptik, in der Nähe eine Informationstheke und am Treppenaustritt eine begrünte Steinwand mit demselben Zeichen. Die Verkehrsflächen dienen zugleich als Wartezonen: holzverkleidete Flure mit einem gerundeten Stationsstützpunkt, Sitzreihen vor der Probenentnahme der Pathologie, getrennt für Männer und Frauen beschildert, und tiefe Pflanzbeete mit Sitzkante an den Fenstern, an denen Patienten und Angehörige im Grünen Platz nehmen können. Im Patientenzimmer rahmt eine Holzwand hinter dem Bett eine Bogennische mit gemusterten Fliesen, eine von der Decke abgehängte Vorhangschiene führt um das Bett, und ein Sprechzimmer verbindet Schreibtisch und Regal aus Holz mit einer Untersuchungsliege und einem geschnitzten Kalligrafie-Bild – so behalten auch die klinischsten Räume die Wärme der öffentlichen Bereiche.",
+   "client": "",
+   "year": "",
+   "area": "",
+   "scope": "Innenarchitektur für ein Krankenhaus",
+   "status": "Im Bau",
+   "role": ""
+  }
+ },
+ {
+  "id": "divisional-training-centre",
+  "cat": "Public",
+  "catDe": "Öffentliche Bauten",
+  "imgs": [
+   {
+    "src": "images/divisional-training-centre/00.webp",
+    "w": 1600,
+    "h": 993
+   },
+   {
+    "src": "images/divisional-training-centre/01.webp",
+    "w": 1400,
+    "h": 850
+   },
+   {
+    "src": "images/divisional-training-centre/02.webp",
+    "w": 1400,
+    "h": 850
+   },
+   {
+    "src": "images/divisional-training-centre/03.webp",
+    "w": 1400,
+    "h": 788
+   },
+   {
+    "src": "images/divisional-training-centre/04.webp",
+    "w": 1400,
+    "h": 850
+   },
+   {
+    "src": "images/divisional-training-centre/05.webp",
+    "w": 1400,
+    "h": 868
+   }
+  ],
+  "en": {
+   "t": "Divisional Training Centre",
+   "loc": "Cox’s Bazar",
+   "d": "A monumental training facility merging institutional scale with rhythmic facade elements inspired by local geography.",
+   "b": "A 35,000 square foot public training facility for LGED, where institutional scale had to stay approachable for the people cycling through it. A deep, rhythmic screen wraps the elevations to cut direct sun and drive cross-ventilation through the teaching and residential wings, lowering cooling load in a hot, humid coastal setting. The annex and landscape were planned as one gesture, giving the campus shaded outdoor circulation between blocks.",
+   "client": "Local Government Engineering Department (LGED)",
+   "year": "2024 – 2025",
+   "area": "3,250 m²",
+   "scope": "Architecture, Exterior & Landscape Design",
+   "status": "In construction",
+   "role": "Architect on behalf of Nippon Koei Bangladesh Ltd. (design supervision consultant to LGED): assisting the project lead architect, site supervision, detail design. Feb 2024 – Feb 2025."
+  },
+  "de": {
+   "t": "Divisional Training Centre",
+   "loc": "Cox’s Bazar",
+   "d": "Ein monumentales Schulungszentrum, das institutionellen Maßstab mit einer rhythmischen, von der Landschaft der Region inspirierten Fassade verbindet.",
+   "b": "Ein öffentliches Schulungszentrum mit ca. 3.250 m² (35.000 sq ft) für das LGED (Local Government Engineering Department, die staatliche Behörde für kommunale Infrastruktur) – trotz institutioneller Größe sollte es für die wechselnden Kursteilnehmenden zugänglich bleiben. Eine tiefe, rhythmisch durchbrochene Wand (Jali) umhüllt die Fassaden, hält direkte Sonne ab und treibt die Querlüftung durch Lehr- und Wohnflügel, was die Kühllast im heißen, feuchten Küstenklima senkt. Anbau und Freiraum wurden als eine Geste geplant und geben dem Campus verschattete Wege im Freien zwischen den Gebäuden.",
+   "client": "Local Government Engineering Department (LGED)",
+   "year": "2024 – 2025",
+   "area": "3.250 m²",
+   "scope": "Architektur, Fassade und Freiraumgestaltung",
+   "status": "Im Bau",
+   "role": "Architektur für Nippon Koei Bangladesh Ltd. (Planungs- und Bauüberwachungsberatung für LGED): Unterstützung der Projektleitung, Bauüberwachung, Detailplanung. Feb. 2024 – Feb. 2025."
+  },
+  "by": "Nippon Koei Bangladesh Ltd. for LGED"
+ },
+ {
+  "id": "dapunia-bazar-mosque",
+  "cat": "Religious",
+  "catDe": "Sakralbau",
+  "imgs": [
+   {
+    "src": "images/dapunia-bazar-mosque/00.webp",
+    "w": 1600,
+    "h": 893
+   },
+   {
+    "src": "images/dapunia-bazar-mosque/01.webp",
+    "w": 1400,
+    "h": 980
+   },
+   {
+    "src": "images/dapunia-bazar-mosque/02.webp",
+    "w": 1400,
+    "h": 781
+   }
+  ],
+  "en": {
+   "t": "Dapunia Bazar Mosque",
+   "loc": "Mymensingh, Bangladesh",
+   "d": "A spiritual space balancing traditional brickwork with modern structural expression.",
+   "b": "An 8,000 square foot mosque for the Dapunia Bazar community, built in brick detailed to sit comfortably alongside the surrounding bazaar rather than stand apart from it. Perforated screens filter harsh daylight into the prayer hall and let hot air escape at high level, keeping the space usable through the day without mechanical cooling. The structural expression is deliberately plain — the ornament is in the bond pattern and the light it throws.",
+   "client": "Dapunia Bazar Mosque Committee",
+   "year": "",
+   "area": "740 m²",
+   "scope": "Religious Architecture & Interior",
+   "status": "In construction",
+   "role": ""
+  },
+  "de": {
+   "t": "Dapunia Bazar Mosque",
+   "loc": "Mymensingh, Bangladesch",
+   "d": "Ein spiritueller Ort im Gleichgewicht zwischen traditionellem Mauerwerk und moderner Tragstruktur.",
+   "b": "Eine Moschee mit ca. 743 m² (8.000 sq ft) für die Gemeinde von Dapunia Bazar, in Ziegel gebaut und so detailliert, dass sie sich in den umgebenden Basar einfügt, statt sich abzuheben. Durchbrochene Ziegelwände (Jali) filtern das grelle Tageslicht in den Gebetssaal und lassen warme Luft oben entweichen; so bleibt der Raum den ganzen Tag ohne Klimatisierung nutzbar. Die Konstruktion ist bewusst schlicht gehalten – das Ornament liegt im Mauerwerksverband und im Licht, das er wirft.",
+   "client": "Dapunia Bazar Mosque Committee",
+   "year": "",
+   "area": "740 m²",
+   "scope": "Sakralbau und Innenarchitektur",
+   "status": "Im Bau",
+   "role": ""
+  },
+  "by": "Spaceverse Ltd."
+ },
+ {
+  "id": "ma-o-sishu-hospital",
+  "cat": "Healthcare",
+  "catDe": "Gesundheitsbau",
+  "imgs": [
+   {
+    "src": "images/ma-o-sishu-hospital/00.webp",
+    "w": 1600,
+    "h": 1195
+   },
+   {
+    "src": "images/ma-o-sishu-hospital/01.webp",
+    "w": 1400,
+    "h": 781
+   },
+   {
+    "src": "images/ma-o-sishu-hospital/02.webp",
+    "w": 1400,
+    "h": 1400
+   },
+   {
+    "src": "images/ma-o-sishu-hospital/03.webp",
+    "w": 1400,
+    "h": 1400
+   },
+   {
+    "src": "images/ma-o-sishu-hospital/04.webp",
+    "w": 1400,
+    "h": 1045
+   },
+   {
+    "src": "images/ma-o-sishu-hospital/05.webp",
+    "w": 1400,
+    "h": 1045
+   },
+   {
+    "src": "images/ma-o-sishu-hospital/06.webp",
+    "w": 1400,
+    "h": 1045
+   }
+  ],
+  "en": {
+   "t": "MA O Sishu Hospital",
+   "loc": "Uttara, Dhaka",
+   "d": "A nine-storied specialised gynaecology hospital serving as a social landmark.",
+   "b": "A nine-storied specialised gynaecology hospital across 45,000 square feet, planned so public, patient and clinical circulation never collide. The entrance sequence and waiting areas were given daylight and outward views, which carries more weight in a maternity setting than in general healthcare. Solid-to-void rhythm and shading depth keep ward-facing rooms comfortable while giving the building civic presence on its Uttara street.",
+   "client": "MA O Sishu Hospital Trust",
+   "year": "2025 –",
+   "area": "4,180 m²",
+   "scope": "Healthcare Architecture & Planning",
+   "status": "In construction",
+   "role": "Architect on behalf of Spaceverse, in joint venture with MAIN Arch.: assisting the project lead architect, site supervision, detail design. Feb 2025 – ongoing."
+  },
+  "de": {
+   "t": "MA O Sishu Hospital",
+   "loc": "Uttara, Dhaka",
+   "d": "Eine neungeschossige Frauenklinik (Mutter-Kind-Klinik), die als sozialer Orientierungspunkt dient.",
+   "b": "Eine neungeschossige Frauenklinik (EG + 8 OG) mit ca. 4.180 m² (45.000 sq ft), so geplant, dass sich die Wege von Öffentlichkeit, Patientinnen und klinischem Betrieb nie kreuzen. Eingangsbereich und Wartezonen erhalten Tageslicht und Ausblick – in der Geburtshilfe wiegt das schwerer als im allgemeinen Krankenhausbau. Der Rhythmus von geschlossenen und offenen Flächen und die Tiefe der Verschattung halten die Patientenzimmer angenehm und geben dem Gebäude an seiner Straße in Uttara eine öffentliche Präsenz.",
+   "client": "MA O Sishu Hospital Trust",
+   "year": "seit 2025",
+   "area": "4.180 m²",
+   "scope": "Gesundheitsbau und Planung",
+   "status": "Im Bau",
+   "role": "Architektur für Spaceverse, in Arbeitsgemeinschaft mit MAIN Arch.: Unterstützung der Projektleitung, Bauüberwachung, Detailplanung. Seit Feb. 2025."
+  },
+  "by": "Spaceverse Ltd. · JV with MAIN Arch."
+ },
+ {
+  "id": "ma-matin-library",
+  "cat": "Public",
+  "catDe": "Öffentliche Bauten",
+  "imgs": [
+   {
+    "src": "images/ma-matin-library/00.webp",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "images/ma-matin-library/01.webp",
+    "w": 1400,
+    "h": 788
+   },
+   {
+    "src": "images/ma-matin-library/02.webp",
+    "w": 1400,
+    "h": 788
+   },
+   {
+    "src": "images/ma-matin-library/03.webp",
+    "w": 900,
+    "h": 1600
+   }
+  ],
+  "en": {
+   "t": "M.A. Matin Public Library",
+   "loc": "Mymensingh, Bangladesh",
+   "d": "Designed with a philosophy of transparency and accessibility. Expansive glass facades create a visual dialogue with the lake.",
+   "b": "A 12,500 square foot municipal library organised around transparency, with expansive glazing placing the reading floors in direct visual dialogue with the adjacent lake. Openness is calibrated rather than absolute: shading depth and orientation protect books and readers from direct sun while keeping the water in view. The building is meant to read as an invitation from the street, lowering the threshold for first-time users.",
+   "client": "Mymensingh City Corporation",
+   "year": "2023 –",
+   "area": "1,160 m²",
+   "scope": "Public Institutional Library Architecture",
+   "status": "In construction",
+   "role": "Project lead (Spaceverse): project management, detail design and working drawings, landscape detail design, 3D visualization, site supervision."
+  },
+  "de": {
+   "t": "M.A. Matin Public Library",
+   "loc": "Mymensingh, Bangladesch",
+   "d": "Entworfen nach dem Leitgedanken von Transparenz und Zugänglichkeit. Großzügige Glasfassaden treten in einen sichtbaren Dialog mit dem See.",
+   "b": "Eine Stadtbibliothek mit ca. 1.161 m² (12.500 sq ft), organisiert um das Thema Transparenz: Großzügige Verglasungen setzen die Lesegeschosse in direkten Sichtbezug zum angrenzenden See. Die Offenheit ist dosiert, nicht absolut – Verschattungstiefe und Ausrichtung schützen Bücher und Lesende vor direkter Sonne, während das Wasser im Blick bleibt. Von der Straße aus soll das Gebäude wie eine Einladung wirken und so die Schwelle für Erstbesucher senken.",
+   "client": "Mymensingh City Corporation (Stadtverwaltung)",
+   "year": "seit 2023",
+   "area": "1.160 m²",
+   "scope": "Öffentlicher Bibliotheksbau",
+   "status": "Im Bau",
+   "role": "Projektleitung (Spaceverse): Projektsteuerung, Detail- und Ausführungsplanung, Freiraum-Detailplanung, 3D-Visualisierung, Bauüberwachung."
+  },
+  "by": "Spaceverse Ltd."
+ },
+ {
+  "id": "gazipur-mosque",
+  "cat": "Religious",
+  "catDe": "Sakralbau",
+  "imgs": [
+   {
+    "src": "images/gazipur-mosque/00.webp",
+    "w": 1440,
+    "h": 959
+   },
+   {
+    "src": "images/gazipur-mosque/01.webp",
+    "w": 1400,
+    "h": 932
+   },
+   {
+    "src": "images/gazipur-mosque/02.webp",
+    "w": 1260,
+    "h": 840
+   },
+   {
+    "src": "images/gazipur-mosque/03.webp",
+    "w": 1400,
+    "h": 932
+   },
+   {
+    "src": "images/gazipur-mosque/04.webp",
+    "w": 1400,
+    "h": 932
+   },
+   {
+    "src": "images/gazipur-mosque/05.webp",
+    "w": 1400,
+    "h": 932
+   },
+   {
+    "src": "images/gazipur-mosque/06.webp",
+    "w": 1400,
+    "h": 932
+   }
+  ],
+  "en": {
+   "t": "Markazus Sunan Mosque-Madrasha Complex, Gazipur",
+   "loc": "Gazipur, Bangladesh",
+   "d": "Architectural intervention focused on natural ventilation and rhythmic light patterns in a religious setting.",
+   "b": "A 9,500 square foot mosque and madrasha complex where prayer and teaching share one site without competing for it. Openings and courtyard placement were resolved for natural ventilation first, so the halls stay usable through Gazipur's hot season with minimal mechanical support. Rhythmic apertures throw shifting light patterns across the interior through the day, giving a plain material palette its depth.",
+   "client": "Markazus Sunan Committee",
+   "year": "",
+   "area": "880 m²",
+   "scope": "Religious Architecture",
+   "status": "In construction",
+   "role": ""
+  },
+  "de": {
+   "t": "Markazus Sunan Mosque-Madrasha Complex, Gazipur",
+   "loc": "Gazipur, Bangladesch",
+   "d": "Ein architektonischer Eingriff mit Fokus auf natürliche Belüftung und rhythmische Lichtmuster in einem religiösen Umfeld.",
+   "b": "Ein Moschee- und Madrasa-Komplex (Madrasa: islamische Lehranstalt) mit ca. 883 m² (9.500 sq ft), in dem Gebet und Unterricht ein Grundstück teilen, ohne miteinander zu konkurrieren. Öffnungen und Innenhof wurden zuerst auf natürliche Belüftung hin angeordnet; so bleiben die Säle auch in Gazipurs heißer Jahreszeit mit minimaler Klimatisierung nutzbar. Rhythmische Öffnungen werfen über den Tag wandernde Lichtmuster in den Innenraum und geben einer schlichten Materialpalette Tiefe.",
+   "client": "Markazus Sunan Committee",
+   "year": "",
+   "area": "880 m²",
+   "scope": "Sakralbau",
+   "status": "Im Bau",
+   "role": ""
+  },
+  "by": "Spaceverse Ltd."
+ },
+ {
+  "id": "asset-visualization",
+  "cat": "Visualization",
+  "catDe": "Visualisierung",
+  "imgs": [
+   {
+    "src": "images/asset-visualization/00.webp",
+    "w": 1600,
+    "h": 1600
+   },
+   {
+    "src": "images/asset-visualization/01.webp",
+    "w": 1400,
+    "h": 934
+   },
+   {
+    "src": "images/asset-visualization/02.webp",
+    "w": 1400,
+    "h": 934
+   },
+   {
+    "src": "images/asset-visualization/03.webp",
+    "w": 1400,
+    "h": 934
+   },
+   {
+    "src": "images/asset-visualization/04.webp",
+    "w": 1400,
+    "h": 850
+   },
+   {
+    "src": "images/asset-visualization/05.webp",
+    "w": 1400,
+    "h": 1050
+   },
+   {
+    "src": "images/asset-visualization/06.webp",
+    "w": 1400,
+    "h": 951
+   }
+  ],
+  "en": {
+   "t": "Asset Eskaton Tower Visualisation",
+   "loc": "Dhaka, Bangladesh",
+   "d": "High-end architectural visualization services for iconic urban landmarks.",
+   "b": "A full visualization package for Asset Developments' Eskaton tower, covering approach, entry, lobby and garden-level views in both day and evening conditions. The set was produced to carry the project through marketing and approvals, so lighting and material treatment stay consistent across every frame rather than being tuned shot by shot. Each view is framed from a sightline a visitor would actually have, not an idealised camera position.",
+   "client": "Asset Developments",
+   "year": "",
+   "area": "",
+   "scope": "Architectural Visualization",
+   "status": "Visualization delivered",
+   "role": ""
+  },
+  "de": {
+   "t": "Asset Eskaton Tower Visualisation",
+   "loc": "Dhaka, Bangladesch",
+   "d": "Hochwertige Architekturvisualisierung für markante Bauten der Stadt.",
+   "b": "Ein vollständiges Visualisierungspaket für den Eskaton Tower von Asset Developments mit Ansichten von Zufahrt, Eingang, Foyer und Gartenebene, jeweils bei Tag und am Abend. Die Serie begleitet das Projekt durch Vermarktung und Genehmigung; deshalb bleiben Licht und Materialdarstellung in allen Bildern einheitlich, statt für jede Aufnahme einzeln abgestimmt zu werden. Jede Ansicht ist aus einer Blickachse gewählt, die Besucher tatsächlich haben – keine idealisierte Kameraposition.",
+   "client": "Asset Developments",
+   "year": "",
+   "area": "",
+   "scope": "Architekturvisualisierung",
+   "status": "Visualisierung geliefert",
+   "role": ""
+  },
+  "by": "Spaceverse Ltd."
+ },
+ {
+  "id": "sare-springfield",
+  "cat": "Visualization",
+  "catDe": "Visualisierung",
+  "imgs": [
+   {
+    "src": "images/sare-springfield/00.webp",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "images/sare-springfield/01.webp",
+    "w": 1400,
+    "h": 788
+   },
+   {
+    "src": "images/sare-springfield/02.webp",
+    "w": 1400,
+    "h": 788
+   },
+   {
+    "src": "images/sare-springfield/03.webp",
+    "w": 900,
+    "h": 1170
+   },
+   {
+    "src": "images/sare-springfield/04.webp",
+    "w": 900,
+    "h": 1170
+   },
+   {
+    "src": "images/sare-springfield/05.webp",
+    "w": 1400,
+    "h": 788
+   },
+   {
+    "src": "images/sare-springfield/06.webp",
+    "w": 1400,
+    "h": 788
+   }
+  ],
+  "en": {
+   "t": "Sare Springfield Visualisation",
+   "loc": "Dhaka, Bangladesh",
+   "d": "Atmospheric architectural visualization for premium residential rooftops.",
+   "b": "An atmospheric visualization set for Sare Springfield's premium residential offering, concentrated on the amenity spaces that drive purchase decisions — lobby, kitchen, living and rooftop. Evening and low-light frames were prioritised to show how the rooftop reads once the city lights come up. The set functions as a coordinated marketing package, not a series of standalone renders.",
+   "client": "Sare Springfield Properties",
+   "year": "",
+   "area": "",
+   "scope": "Architectural Visualization",
+   "status": "Visualization delivered",
+   "role": ""
+  },
+  "de": {
+   "t": "Sare Springfield Visualisation",
+   "loc": "Dhaka, Bangladesch",
+   "d": "Stimmungsvolle Architekturvisualisierung für hochwertige Dachterrassen im Wohnungsbau.",
+   "b": "Eine stimmungsvolle Visualisierungsserie für das hochwertige Wohnprojekt von Sare Springfield, konzentriert auf die Gemeinschaftsflächen, die Kaufentscheidungen beeinflussen – Foyer, Küche, Wohnbereich und Dachterrasse. Abend- und Dämmerungsbilder hatten Vorrang, um zu zeigen, wie die Dachterrasse wirkt, wenn die Lichter der Stadt angehen. Die Serie funktioniert als abgestimmtes Vermarktungspaket, nicht als Sammlung einzelner Renderings.",
+   "client": "Sare Springfield Properties",
+   "year": "",
+   "area": "",
+   "scope": "Architekturvisualisierung",
+   "status": "Visualisierung geliefert",
    "role": ""
   },
   "by": "Spaceverse Ltd."

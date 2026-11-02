@@ -9,8 +9,10 @@ Hosted free on GitHub Pages from the `main` branch root.
 - Single static page: `index.html` (inline CSS + JS). No build step, no frameworks, no npm.
 - Every visible string exists in BOTH English and German: `<span lang="en">…</span><span lang="de">…</span>`.
   German must be natural, professional German (Sie-form), not word-for-word translation.
-- Practice projects live in `data.js` (originally generated from the spaceverseltd.com source: `src/constants.ts` + `src/content-de.ts`
-  in repo abnZyean/spaceverse-website, then edited by hand). Per language each project has `t, loc, d, b, client, area (m²),
+- Practice projects live in `data.js`, synced from the spaceverseltd.com source (`src/constants.ts` + `src/content-de.ts` in repo
+  abnZyean/spaceverse-website; all 21 projects, titles/locations/briefs as there; `lead` = its `architectLead`). Re-sync with
+  the script pattern in git history (commit "Sync all 21 Spaceverse projects"): EN/DE text and images come from the source,
+  the portfolio keeps its own `year`, `status`, `role`, `area` (m²), `by`. Per language each project has `t, loc, d, b, client, area (m²),
   scope, year (period, e.g. "2023 –"), status ("In construction" / "Completed" …), role` (what Xyean personally did —
   shown first in the gallery panel when set). Images: `images/<project-id>/00.webp` (cover, 1600 px), `01…` (gallery, 1400 px),
   `thumb.webp` (720×540 card). Top-level `by` is the credit line in the gallery panel (defaults to Spaceverse Ltd.).
@@ -30,7 +32,8 @@ Hosted free on GitHub Pages from the `main` branch root.
 ## Facts you may use
 - B.Arch, Khulna University · IAB accredited · RAJUK enlisted · 7+ years (residential, mixed-use, institutional)
 - Founder, Spaceverse Ltd. (2022), in-house building, interior, landscape teams — spaceverseltd.com
-- Part-time teaching staff, Architecture Discipline, Khulna University
+- Teaching: External Lecturer (part-time), Department of Architecture, HSTU Dinajpur, Jan–Apr 2026 (past). No Khulna University
+  teaching on the site — Xyean's decision 2 Nov 2026: the signed CV (22 Sep 2026) is authoritative for every conflict.
 - Certified Rhinoceros Professional · D5 Certified User · Rhino/Grasshopper, AutoCAD, D5 Render
 - IELTS Academic 7.0 (C1) · German: A2 course level, working towards B2
 - Projects: High Tech Park Mymensingh (thesis, 2026 degree show) · "Pause in a Motion" metro station ·
@@ -46,14 +49,16 @@ Hosted free on GitHub Pages from the `main` branch root.
   shortlisted Apr 2024 · Berger Award Mar 2023 · Dolpur housing exhibition Nov 2019 · IEB Convention Centre 2017 ·
   Bamiyan Feb 2015 · IJMRAP paper 2021 (co-author) · AAKAr sports & cultural manager Feb 2022– · founder of Smart Home
   Mentor (smarthomentor.com). Project roles with dates: Silicon Heights (Sep 2024–), Divisional Training Centre
-  (Feb 2024–Feb 2025, for Nippon Koei), Ma Matin Library (Feb 2023–), Residence Triplex (start date conflicts between
-  CVs: Feb 2024 / Feb 2025 — left blank), Ma O Shishu (2023– per portfolio board and older CV; newer CV says Feb 2025).
+  (Feb 2024–Feb 2025, for Nippon Koei), Ma Matin Library (Feb 2023–), Single-family Triplex, Mymensingh (Feb 2025–),
+  Ma O Shishu Healthcare Clinic (Feb 2025–). Where older CVs or portfolio boards disagree, the signed CV wins.
+  The CV's "Single Family Triplex, Mymensingh" is mapped to spaceverseltd.com's Chayabithi Triplex (Gazipur, client Dostogir
+  Family) — location shown as Gazipur per the project source; Xyean to confirm whether the CV's "Mymensingh" is a typo.
 - From the portfolio boards: thesis "High Tech Park" Studio X, supervisor Dr. Anirban Mostafa, physical model ·
   "Pause in Motion" Studio V metro station · PICC 2024: concept development, plan/presentation drawings · IEB Convention
   Centre 2017 (Agargaon): 3D visualisation + graphic post-production, team Ratul/Yasmin/Imam/Riyadh · Public Library
   Shahbag 2017: same role, team Ratul/Emran/Riyadh · "Land is More" Affordable Housing Dolpur, Savar 2019: same role,
   team Ratul/Yasmin/Abbas · Ma O Shishu board: Uttara, 670 m² site, FAR 5.5, JV with MAIN Arch, PM + construction
-  detail drawings · Ma Matin board says project year 2018–19 (conflicts with CV Feb 2023–; CV used).
+  detail drawings (board; CV dates used) · Ma Matin board says project year 2018–19 (CV Feb 2023– used).
 - Live LinkedIn URL: https://www.linkedin.com/in/architect-zyean/ (abdullah-numan-architecture redirects to it).
 - Name: Abdullah Al Numan Xyean (legal spelling on passport/certificates; Xyean's decision 2 Nov 2026: use Xyean on the site
   and CV). The GitHub handle/URL abnzyean and the email abnzyean@gmail.com keep the old spelling.
