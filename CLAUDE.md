@@ -2,7 +2,9 @@
 
 ## What this is
 Personal portfolio for Abdullah Al Numan Xyean (licensed architect, founder of Spaceverse Ltd., Dhaka) aimed at
-English-speaking 3D ArchViz / architecture employers in Germany. Relocating to Germany in 2027.
+German architecture offices: he seeks a job (Mitarbeit) or an internship, anywhere in Germany from 2027, remote now
+(decided 9 Nov 2026). German is the default language. Residence: permit for study (§ 16b AufenthG) via the
+M.A. Architecture [DIA] at Hochschule Anhalt (enrolled WS 2026/27).
 Hosted free on GitHub Pages from the `main` branch root.
 
 ## Rules
@@ -19,6 +21,9 @@ Hosted free on GitHub Pages from the `main` branch root.
   Academic (`cat: "Academic"`) and competition (`cat: "Competition"`) projects are in `data.js` too, with galleries cropped
   from Xyean's A3 portfolio boards (Drive: ACADEMIC / COMPETITION / PROFESSIONAL PORTFOLIO.pdf). Items without images
   (Bamiyan, Berger Award) stay in the "Also shortlisted & exhibited" list in `index.html`.
+- `lebenslauf.pdf` (German, with photo) is generated from `lebenslauf.src.html` the same way; `arbeitsproben.pdf` = cover +
+  Drive PROFESSIONAL, ACADEMIC, COMPETITION PORTFOLIO.pdf merged with pikepdf (12 A3 pages).
+- The HOAI matrix in `#apply` maps only documented tasks to LP 1–9; change it only from the CV or Xyean's word.
 - `cv.pdf` is generated from `cv.src.html` (public version: no address, phone, DOB, referees' contacts). Regenerate with
   `google-chrome --headless=new --no-pdf-header-footer --print-to-pdf=cv.pdf cv.src.html`. Keep it at 2 A4 pages.
 - `images/og.jpg` (1200×630) is the link-preview image; `favicon.svg` is the tab icon.
