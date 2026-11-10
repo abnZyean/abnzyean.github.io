@@ -67,7 +67,7 @@ Hosted free on GitHub Pages from the `main` branch root.
   detail drawings (board; CV dates used) · Ma Matin board says project year 2018–19 (CV Feb 2023– used).
 - Live LinkedIn URL: https://www.linkedin.com/in/architect-zyean/ (abdullah-numan-architecture redirects to it).
 - Name: Abdullah Al Numan Xyean (legal spelling on passport/certificates; Xyean's decision 2 Nov 2026: use Xyean on the site
-  and CV). The GitHub handle/URL abnzyean and the email abnzyean@gmail.com keep the old spelling.
+  and CV). The GitHub handle/URL abnzyean and the email keep the old spelling. Public email: abnzyean@yahoo.com (his choice, 10 Nov 2026; matches LinkedIn).
 
 ## Good next tasks (one per session)
 1. Fill `role` and `year` for the 10 practice projects that still have none (ask Xyean) — see the PR questions list.
