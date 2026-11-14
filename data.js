@@ -69,7 +69,7 @@ window.PRACTICE_PROJECTS = [
    "role": "Architektur (Spaceverse): Entwurfskonzept, Detail- und Ausführungsplanung, 3D-Visualisierung, Bauüberwachung. Seit Sep. 2024."
   },
   "by": "Spaceverse Ltd.",
-  "lead": "Ar. Moona Ahmed Ismail, Ar. Zyean Abdullah"
+  "lead": "Ar. Moona Ahmed Ismail, Abdullah Al Numan Xyean"
  },
  {
   "id": "silicon-europa",
