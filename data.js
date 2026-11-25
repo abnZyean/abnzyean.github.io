@@ -6,7 +6,7 @@ window.PRACTICE_PROJECTS = [
  {
   "id": "silicon-heights",
   "cat": "Commercial",
-  "catDe": "Gewerbebau",
+  "catDe": "Mischnutzung",
   "imgs": [
    {
     "src": "images/silicon-heights/00.webp",
@@ -68,7 +68,7 @@ window.PRACTICE_PROJECTS = [
    "status": "Im Bau",
    "role": "Architektur (Spaceverse): Entwurfskonzept, Detail- und Ausführungsplanung, 3D-Visualisierung, Bauüberwachung. Seit Sep. 2024."
   },
-  "by": "Spaceverse Ltd.",
+  "by": "SpaceVerse",
   "lead": "Ar. Moona Ahmed Ismail, Abdullah Al Numan Xyean"
  },
  {
@@ -136,7 +136,7 @@ window.PRACTICE_PROJECTS = [
    "status": "Im Bau",
    "role": ""
   },
-  "by": "Spaceverse Ltd."
+  "by": "SpaceVerse"
  },
  {
   "id": "rasel-residence",
@@ -203,13 +203,13 @@ window.PRACTICE_PROJECTS = [
    "status": "Im Bau",
    "role": ""
   },
-  "by": "Spaceverse Ltd."
+  "by": "SpaceVerse"
  },
  {
   "id": "silicon-samtaz",
   "cat": "Residential",
   "catDe": "Wohnungsbau",
-  "by": "Spaceverse Ltd.",
+  "by": "SpaceVerse",
   "imgs": [
    {
     "src": "images/silicon-samtaz/00.webp",
@@ -271,7 +271,7 @@ window.PRACTICE_PROJECTS = [
   "id": "silicon-solitude",
   "cat": "Residential",
   "catDe": "Wohnungsbau",
-  "by": "Spaceverse Ltd.",
+  "by": "SpaceVerse",
   "imgs": [
    {
     "src": "images/silicon-solitude/00.webp",
@@ -323,7 +323,7 @@ window.PRACTICE_PROJECTS = [
   "id": "silicon-yara",
   "cat": "Residential",
   "catDe": "Wohnungsbau",
-  "by": "Spaceverse Ltd.",
+  "by": "SpaceVerse",
   "imgs": [
    {
     "src": "images/silicon-yara/00.webp",
@@ -385,7 +385,7 @@ window.PRACTICE_PROJECTS = [
   "id": "bosonto-bauri-principals-duplex",
   "cat": "Residential",
   "catDe": "Wohnhäuser",
-  "by": "Spaceverse Ltd.",
+  "by": "SpaceVerse",
   "imgs": [
    {
     "src": "images/bosonto-bauri-principals-duplex/00.webp",
@@ -538,13 +538,13 @@ window.PRACTICE_PROJECTS = [
    "status": "Im Bau",
    "role": "Architektur (Spaceverse): Entwurfskonzept, Detailplanung, Bauüberwachung. Seit Feb. 2025."
   },
-  "by": "Spaceverse Ltd."
+  "by": "SpaceVerse"
  },
  {
   "id": "dr-abdul-khaleque-residence",
   "cat": "Residential",
   "catDe": "Wohnhäuser",
-  "by": "Spaceverse Ltd.",
+  "by": "SpaceVerse",
   "imgs": [
    {
     "src": "images/dr-abdul-khaleque-residence/00.webp",
@@ -672,7 +672,7 @@ window.PRACTICE_PROJECTS = [
    "status": "Im Bau",
    "role": ""
   },
-  "by": "Spaceverse Ltd."
+  "by": "SpaceVerse"
  },
  {
   "id": "bisc-nirjhor-interior",
@@ -739,7 +739,7 @@ window.PRACTICE_PROJECTS = [
    "status": "Im Bau",
    "role": ""
   },
-  "by": "Spaceverse Ltd."
+  "by": "SpaceVerse"
  },
  {
   "id": "dostogir-house-interior",
@@ -806,7 +806,7 @@ window.PRACTICE_PROJECTS = [
    "status": "Im Bau",
    "role": ""
   },
-  "by": "Spaceverse Ltd."
+  "by": "SpaceVerse"
  },
  {
   "id": "banasree-interior",
@@ -873,13 +873,13 @@ window.PRACTICE_PROJECTS = [
    "status": "Im Bau",
    "role": ""
   },
-  "by": "Spaceverse Ltd."
+  "by": "SpaceVerse"
  },
  {
   "id": "yashfeen-hospital",
   "cat": "Interior",
   "catDe": "Innenarchitektur",
-  "by": "Spaceverse Ltd.",
+  "by": "SpaceVerse",
   "imgs": [
    {
     "src": "images/yashfeen-hospital/00.webp",
@@ -1064,7 +1064,7 @@ window.PRACTICE_PROJECTS = [
    "status": "Im Bau",
    "role": ""
   },
-  "by": "Spaceverse Ltd."
+  "by": "SpaceVerse"
  },
  {
   "id": "ma-o-sishu-hospital",
@@ -1131,7 +1131,7 @@ window.PRACTICE_PROJECTS = [
    "status": "Im Bau",
    "role": "Architektur für Spaceverse, in Arbeitsgemeinschaft mit MAIN Arch.: Unterstützung der Projektleitung, Bauüberwachung, Detailplanung. Seit Feb. 2025."
   },
-  "by": "Spaceverse Ltd. · JV with MAIN Arch."
+  "by": "SpaceVerse · JV with MAIN Arch."
  },
  {
   "id": "ma-matin-library",
@@ -1183,7 +1183,7 @@ window.PRACTICE_PROJECTS = [
    "status": "Im Bau",
    "role": "Projektleitung (Spaceverse): Projektsteuerung, Detail- und Ausführungsplanung, Freiraum-Detailplanung, 3D-Visualisierung, Bauüberwachung."
   },
-  "by": "Spaceverse Ltd."
+  "by": "SpaceVerse"
  },
  {
   "id": "gazipur-mosque",
@@ -1250,7 +1250,7 @@ window.PRACTICE_PROJECTS = [
    "status": "Im Bau",
    "role": ""
   },
-  "by": "Spaceverse Ltd."
+  "by": "SpaceVerse"
  },
  {
   "id": "asset-visualization",
@@ -1297,8 +1297,8 @@ window.PRACTICE_PROJECTS = [
    "t": "Asset Eskaton Tower Visualisation",
    "loc": "Dhaka, Bangladesh",
    "d": "High-end architectural visualization services for iconic urban landmarks.",
-   "b": "A full visualization package for Asset Developments' Eskaton tower, covering approach, entry, lobby and garden-level views in both day and evening conditions. The set was produced to carry the project through marketing and approvals, so lighting and material treatment stay consistent across every frame rather than being tuned shot by shot. Each view is framed from a sightline a visitor would actually have, not an idealised camera position.",
-   "client": "Asset Developments",
+   "b": "A full visualization package for ASSET Developments & Holdings' Eskaton tower, covering approach, entry, lobby and garden-level views in both day and evening conditions. The set was produced to carry the project through marketing and approvals, so lighting and material treatment stay consistent across every frame rather than being tuned shot by shot. Each view is framed from a sightline a visitor would actually have, not an idealised camera position.",
+   "client": "ASSET Developments & Holdings Ltd",
    "year": "",
    "area": "",
    "scope": "Architectural Visualization",
@@ -1309,15 +1309,15 @@ window.PRACTICE_PROJECTS = [
    "t": "Asset Eskaton Tower Visualisation",
    "loc": "Dhaka, Bangladesch",
    "d": "Hochwertige Architekturvisualisierung für markante Bauten der Stadt.",
-   "b": "Ein vollständiges Visualisierungspaket für den Eskaton Tower von Asset Developments mit Ansichten von Zufahrt, Eingang, Foyer und Gartenebene, jeweils bei Tag und am Abend. Die Serie begleitet das Projekt durch Vermarktung und Genehmigung; deshalb bleiben Licht und Materialdarstellung in allen Bildern einheitlich, statt für jede Aufnahme einzeln abgestimmt zu werden. Jede Ansicht ist aus einer Blickachse gewählt, die Besucher tatsächlich haben – keine idealisierte Kameraposition.",
-   "client": "Asset Developments",
+   "b": "Ein vollständiges Visualisierungspaket für den Eskaton Tower von ASSET Developments & Holdings mit Ansichten von Zufahrt, Eingang, Foyer und Gartenebene, jeweils bei Tag und am Abend. Die Serie begleitet das Projekt durch Vermarktung und Genehmigung; deshalb bleiben Licht und Materialdarstellung in allen Bildern einheitlich, statt für jede Aufnahme einzeln abgestimmt zu werden. Jede Ansicht ist aus einer Blickachse gewählt, die Besucher tatsächlich haben – keine idealisierte Kameraposition.",
+   "client": "ASSET Developments & Holdings Ltd",
    "year": "",
    "area": "",
    "scope": "Architekturvisualisierung",
    "status": "Visualisierung geliefert",
    "role": ""
   },
-  "by": "Spaceverse Ltd."
+  "by": "SpaceVerse"
  },
  {
   "id": "sare-springfield",
@@ -1365,7 +1365,7 @@ window.PRACTICE_PROJECTS = [
    "loc": "Dhaka, Bangladesh",
    "d": "Atmospheric architectural visualization for premium residential rooftops.",
    "b": "An atmospheric visualization set for Sare Springfield's premium residential offering, concentrated on the amenity spaces that drive purchase decisions — lobby, kitchen, living and rooftop. Evening and low-light frames were prioritised to show how the rooftop reads once the city lights come up. The set functions as a coordinated marketing package, not a series of standalone renders.",
-   "client": "Sare Springfield Properties",
+   "client": "Samsul Alamin Real Estate (SARE)",
    "year": "",
    "area": "",
    "scope": "Architectural Visualization",
@@ -1377,14 +1377,14 @@ window.PRACTICE_PROJECTS = [
    "loc": "Dhaka, Bangladesch",
    "d": "Stimmungsvolle Architekturvisualisierung für hochwertige Dachterrassen im Wohnungsbau.",
    "b": "Eine stimmungsvolle Visualisierungsserie für das hochwertige Wohnprojekt von Sare Springfield, konzentriert auf die Gemeinschaftsflächen, die Kaufentscheidungen beeinflussen – Foyer, Küche, Wohnbereich und Dachterrasse. Abend- und Dämmerungsbilder hatten Vorrang, um zu zeigen, wie die Dachterrasse wirkt, wenn die Lichter der Stadt angehen. Die Serie funktioniert als abgestimmtes Vermarktungspaket, nicht als Sammlung einzelner Renderings.",
-   "client": "Sare Springfield Properties",
+   "client": "Samsul Alamin Real Estate (SARE)",
    "year": "",
    "area": "",
    "scope": "Architekturvisualisierung",
    "status": "Visualisierung geliefert",
    "role": ""
   },
-  "by": "Spaceverse Ltd."
+  "by": "SpaceVerse"
  },
  {
   "id": "high-tech-park",
